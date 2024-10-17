@@ -1,0 +1,108 @@
+.wl {
+    outline: 3px solid #111;
+    border: 1px solid #444;
+}
+
+.wlheader {
+    width: -webkit-fill-available;
+    height: 250px;
+    background: #393939;
+    filter: grayscale(1) brightness(0.4);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(100% 0%, 0% 0%, 0.00% 88.62%, 2.86% 87.22%, 5.71% 86.04%, 8.57% 85.19%, 11.43% 84.73%, 14.29% 84.71%, 17.14% 85.12%, 20.00% 85.93%, 22.86% 87.07%, 25.71% 88.45%, 28.57% 89.96%, 31.43% 91.47%, 34.29% 92.86%, 37.14% 94.02%, 40.00% 94.85%, 42.86% 95.28%, 45.71% 95.28%, 48.57% 94.84%, 51.43% 94.01%, 54.29% 92.85%, 57.14% 91.46%, 60.00% 89.94%, 62.86% 88.44%, 65.71% 87.06%, 68.57% 85.92%, 71.43% 85.11%, 74.29% 84.71%, 77.14% 84.74%, 80.00% 85.20%, 82.86% 86.05%, 85.71% 87.23%, 88.57% 88.64%, 91.43% 90.15%, 94.29% 91.66%, 97.14% 93.02%, 100.00% 94.14%);
+}
+
+.wlheadergrad {
+    width: -webkit-fill-available;
+    height: 250px;
+    background: var(--default);
+    margin-top: -250px;
+    opacity: inherit;
+    filter: brightness(0.3) saturate(3) contrast(0.9);
+    position: relative;
+    mix-blend-mode: screen;
+    clip-path: polygon(100% 0%, 0% 0%, 0.00% 88.62%, 2.86% 87.22%, 5.71% 86.04%, 8.57% 85.19%, 11.43% 84.73%, 14.29% 84.71%, 17.14% 85.12%, 20.00% 85.93%, 22.86% 87.07%, 25.71% 88.45%, 28.57% 89.96%, 31.43% 91.47%, 34.29% 92.86%, 37.14% 94.02%, 40.00% 94.85%, 42.86% 95.28%, 45.71% 95.28%, 48.57% 94.84%, 51.43% 94.01%, 54.29% 92.85%, 57.14% 91.46%, 60.00% 89.94%, 62.86% 88.44%, 65.71% 87.06%, 68.57% 85.92%, 71.43% 85.11%, 74.29% 84.71%, 77.14% 84.74%, 80.00% 85.20%, 82.86% 86.05%, 85.71% 87.23%, 88.57% 88.64%, 91.43% 90.15%, 94.29% 91.66%, 97.14% 93.02%, 100.00% 94.14%);
+}
+
+.wlbase {
+    width: -webkit-fill-available;
+    background: #1f1f1f;
+    padding: 70px;
+    text-align: justify;
+    margin-top: -40px;
+}
+
+.wlpic {
+    height: 130px;
+    width: 130px;
+    background: #333;
+    margin-top: -105px;
+    margin-bottom: 50px;
+    outline: 30px solid #000000;
+    border-radius: 100%;
+    z-index: 3;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    filter: saturate(0.1) contrast(0.7) brightness(0.81);
+}
+
+.wltxt {
+    text-transform: uppercase;
+    font-weight: 900;
+    width: 400px;
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 315px;
+    font-size: 22px;
+    text-align: right;
+    line-height: 130%;
+    height: 190px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Oranienbaum';
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.wlpost {
+    color: #adadad;
+    font-size: 12px;
+    border-left: var(--streepie);
+    padding-left: 30px;
+    font-family: 'Roboto';
+    line-height: 165%;
+}
+
+.wlflex {
+    display: flex;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 170px;
+    width: 440px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.wltag {
+    background: var(--background);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: Roboto;
+    font-weight: 800;
+}
+
+.wlpost b {
+    font-weight: 900;
+    color: var(--default);
+    font-family: 'Oranienbaum';
+    font-size: 14px;
+}
