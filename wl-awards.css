@@ -1,0 +1,19 @@
+.summerbaby {
+    --award-image: url(https://images2.imgbox.com/a5/52/6buD0kYW_o.png);
+    --award-tooltip: "born in summer";
+}
+
+.springbaby {
+    --award-image: url(https://images2.imgbox.com/14/24/rHeWwjTW_o.png);
+    --award-tooltip: "born in spring";
+}
+
+.fallbaby {
+    --award-image: url(https://images2.imgbox.com/78/d3/JqDN5rEW_o.png);
+    --award-tooltip: "born in fall";
+}
+
+.winterbaby {
+    --award-image: url(https://images2.imgbox.com/46/3d/rwIYb5uF_o.png);
+    --award-tooltip: "born in winter";
+}
