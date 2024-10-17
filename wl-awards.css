@@ -1,3 +1,5 @@
+/**SEASON**/
+
 .summerbaby {
     --award-image: url(https://images2.imgbox.com/a5/52/6buD0kYW_o.png);
     --award-tooltip: "born in summer";
@@ -14,6 +16,53 @@
 }
 
 .winterbaby {
-    --award-image: url(https://images2.imgbox.com/46/3d/rwIYb5uF_o.png);
+    --award-image: url(https://images2.imgbox.com/04/54/2ouaRSBS_o.png);
     --award-tooltip: "born in winter";
 }
+
+/**LOVE & RELATIONSHIPS**/
+
+.heartache {
+    --award-image: url(https://images2.imgbox.com/ed/58/Kc85Y0vJ_o.png);
+    --award-tooltip: "heartache";
+}
+.flirt {
+    --award-image: url(https://images2.imgbox.com/2e/0f/yFEEPMHf_o.png);
+    --award-tooltip: "is a flirt";
+}
+.simp {
+    --award-image: url(https://images2.imgbox.com/37/ad/lWE3EaLm_o.png);
+    --award-tooltip: "is a simp";
+}
+.love {
+    --award-image: url(https://images2.imgbox.com/bd/20/Ay2JfWAK_o.png);
+    --award-tooltip: "in love";
+}
+
+.engaged {
+    --award-image: url(https://images2.imgbox.com/ff/27/PvSuskPC_o.png);
+    --award-tooltip: "engaged";
+}
+.married {
+    --award-image: url(https://i.servimg.com/u/f17/20/56/04/31/rings10.png);
+    --award-tooltip: "married";
+}
+/**SKILLS**/
+
+.hunter {
+    --award-image: url(https://images2.imgbox.com/16/42/EMOj1BEa_o.png);
+    --award-tooltip: "skilled hunter";
+}
+.swordsman {
+    --award-image: url(https://images2.imgbox.com/36/18/xWH6iGrA_o.png;
+    --award-tooltip: "skilled swordsman";
+}
+
+/**TRAITS**/
+
+        
+/**FEARS**/
+
+/**EVENTS**/
+
+/**MISC**/
