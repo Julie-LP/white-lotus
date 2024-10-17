@@ -51,11 +51,11 @@
 
 .hunter {
     --award-image: url(https://images2.imgbox.com/16/42/EMOj1BEa_o.png);
-    --award-tooltip: "skilled hunter";
+    --award-tooltip: "hunter";
 }
 .swordsman {
     --award-image: url(https://images2.imgbox.com/36/18/xWH6iGrA_o.png);
-    --award-tooltip: "skilled swordsman";
+    --award-tooltip: "swordsman";
 }
 
 /**TRAITS**/
