@@ -95,6 +95,11 @@
     --award-tooltip: "bloodbender";
 }
 
+.healer {
+    --award-image: url(https://images2.imgbox.com/84/dc/gBuvDC6r_o.png);
+    --award-tooltip: "healer";
+}
+
 /**STATUS**/
 
 .peasant {
