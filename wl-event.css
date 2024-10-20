@@ -1,19 +1,4 @@
-.eventicon {
-   background-image: url(https://images2.imgbox.com/0e/fe/BRFGMX7O_o.png);
-   background-size: cover;
-   background-repeat: no-repeat;
-   height: 250px;
-   width: 200px;
-   position: absolute;
-   z-index: 1;
-   filter: contrast(0) brightness(2);
-   mix-blend-mode: soft-light;
-   margin-left: 506px;
-   margin-top: -49px;
-   background-position-x: 15px;
-   background-position-y: -30px;
-   opacity: .2;
-}
+
 
 .eventbase {
     background: var(--eventgrad);
@@ -22,25 +7,6 @@
     box-shadow: 1px 1px 10px #000000;
     border: 1px solid #5c5c5c;
     position: relative;
-}
-
-.eventtit {
-   font-weight: 900;
-   display: flex;
-   flex-direction: column;
-   font-family: 'Radio Canada Big';
-   text-transform: uppercase;
-   font-size: 50px;
-   gap: 13px;
-   margin-bottom: 20px;
-   color: #e7e7e7;
-   text-shadow: 1px 1px 3px #373737;
-}
-
-.eventtxt {
-   color: #e6e6e6;
-   text-shadow: 1px 1px 3px #626262;
-   border-radius: 10px;
 }
 
 .eventend {
@@ -55,4 +21,39 @@
    padding-bottom: 20px;
    color: #ebebeb;
    letter-spacing: 1px;
+}
+
+.eventtit {
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Radio Canada Big';
+    text-transform: uppercase;
+    font-size: 50px;
+    gap: 13px;
+    margin-bottom: 20px;
+    color: #e7e7e7;
+    text-shadow: 1px 1px 3px #373737;
+}
+
+.eventtxt {
+    color: #e6e6e6;
+    text-shadow: 1px 1px 3px #626262;
+    border-radius: 10px;
+}
+
+.eventicon {
+    background-image: url(https://images2.imgbox.com/0e/fe/BRFGMX7O_o.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    filter: contrast(0.5) brightness(1.5);
+    mix-blend-mode: soft-light;
+    margin-left: 506px;
+    margin-top: -49px;
+    background-position: 15px -30px;
+    opacity: 0.2;
 }
