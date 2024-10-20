@@ -13,7 +13,7 @@
     background: var(--backgroundrgb);
     padding: 20px 10px;
     font-weight: 700;
-    font-family: 'Radio Canada Big'; /* Enclosed in quotes */
+    font-family: Radio Canada Big;
     text-transform: uppercase;
     text-align: center;
     border-radius: 20px;
