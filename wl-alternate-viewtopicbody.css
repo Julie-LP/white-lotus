@@ -1,0 +1,42 @@
+.post_profile {
+    display: none;
+}
+
+.content {
+    width: 1088px;
+}
+
+.topicfooter {
+    display: none;
+}
+
+.post_date {
+    margin-left: 10px;
+}
+
+.topicheader {
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans';
+    padding-left: 0px;
+    font-size: 75px;
+}
+elementpost {
+    background-image: url(https://images2.imgbox.com/fc/1e/vlHE50cx_o.png);
+    margin-left: -735px;
+    width: 400px;
+    background-position-y: -75px;
+    margin-left: -683px;
+}
+.topicheader::after {
+    content: "relationship tracker";
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 85px;
+    font-weight: 500;
+}
+.topicheadergrad {
+    background: var(--backgroundrgb);
+}
