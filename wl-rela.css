@@ -9,7 +9,7 @@
     filter: drop-shadow(2px 2px 2px #222);
 }
 .rt-rel-base {
-       background: #242424;
+         background: #252525;
     padding: 40px;
     outline: 2px solid #2f2f2f;
     border-radius: 5px;
@@ -63,25 +63,25 @@
     display: flex;
 }
 .rt-rel-ava {
-    width: 250px;
-    height: 370px;
-        border: var(--avatarborder);
+        width: 280px;
+    height: 390px;
+    border: var(--avatarborder);
     margin-bottom: -80px;
-    margin-top: 25px;
-    outline: 20px solid #242424;
+    margin-top: 0px;
+    outline: 20px solid #212121;
     border-radius: 10px;
-    margin-left: 20px;
-      background-size: cover;
+    margin-left: 30px;
+    background-size: cover;
     background-position: center;
-
+    filter: saturate(0.5) brightness(0.8) contrast(0.9);
 }
 .rt-bars-base {
-    background: #1E1E1E;
+       background: #1E1E1E;
     width: 520px;
     border: 5px solid #2B2B2B;
     border-radius: 10px;
     height: 245px;
-    margin-left: 85px;
+    margin-left: 60px;
     margin-top: 24px;
     padding-left: 15px;
     padding-right: 15px;
