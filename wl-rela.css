@@ -33,6 +33,7 @@
     flex-direction: column;
     justify-content: center;
         padding-top: 10px;
+          border-bottom: 15px solid #222222;
 }
 
 .rt-title {
