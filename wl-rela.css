@@ -82,13 +82,6 @@
     padding-right: 15px;
 }
 
-.rt-rel-lables {
-    display: flex;
-    position: absolute;
-    margin-top: -80px;
-    margin-left: 305px;
-    width: 650px;
-}
 .rt-label {
       background: var(--footer);
     margin: 10px;
@@ -105,7 +98,7 @@
     position: absolute;
     margin-top: -110px;
     margin-left: 305px;
-    width: 625px;
+    width: 605px;
     justify-content: flex-end;
 }
 
