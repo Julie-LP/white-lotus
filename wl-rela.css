@@ -97,6 +97,9 @@
     border-radius: 5px;
     font-size: 19px;
     filter: brightness(1.2);
+          font-weight: 900;
+    color: #c8c8c8;
+    font-family: 'Josefin Sans';
 }
 .rt-rel-lables {
     display: flex;
