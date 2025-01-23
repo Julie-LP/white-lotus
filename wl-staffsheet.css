@@ -158,3 +158,39 @@
     gap: 10px;
     margin-top: -10px;
 }
+
+.ucirc {
+         width: 73px;
+    height: 38px;
+    background-color: rgb(153 153 153 / 30%);
+    border-radius: 400px 400px 0 0;
+    margin-top: -38px;
+    margin-left: 367px;
+    z-index: 3;
+    position: absolute;
+}
+
+.u-elbg {
+    width: 45px;
+    height: 45px;
+    background: var(--lastbg);
+    border-radius: 100%;
+    border: 1px solid #5c5c5c;
+    margin-top: -25px;
+    margin-bottom: 40px;
+    margin-left: 380px;
+    z-index: 3;
+    position: absolute;
+}
+
+.u-el {
+    background-image: var(--elementicon);
+    background-size: cover;
+    width: 44px;
+    height: 44px;
+    filter: contrast(0) brightness(2);
+    border-radius: 100%;
+    mix-blend-mode: overlay;
+    position: absolute;
+    opacity: .6;
+}
