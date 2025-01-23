@@ -1,6 +1,6 @@
 /* Universe Header */
 .universeheader {
-    height: 280px;
+     height: 440px;
     background: #333;
     margin-top: 0px;
     border-radius: 20px 20px 0px 0px;
@@ -8,20 +8,22 @@
     padding-left: 70px;
     font-weight: bolder;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 45px;
     color: #d8d8d8;
     text-shadow: 1px 1px 1px #000;
     z-index: 1;
     margin-bottom: -80px;
+    line-height: 65%;
     position: relative;
     background-size: cover;
     clip-path: polygon(100% 0%, 0% 0%, 0.00% 69.63%, 6.67% 72.00%, 13.33% 73.68%, 20.00% 74.37%, 26.67% 73.95%, 33.33% 72.50%, 40.00% 70.27%, 46.67% 67.64%, 53.33% 65.06%, 60.00% 62.99%, 66.67% 61.78%, 73.33% 61.64%, 80.00% 62.60%, 86.67% 64.48%, 93.33% 66.97%, 100.00% 69.63%);
 }
 
 .universeheader-txt {
-     z-index:4 !important;
+          z-index: 4 !important;
     position: relative;
-      margin-top: -25px;
+    margin-top: -50px;
+    font-family: 'Radio Canada Big';
 }
 
 /* Universe Base */
@@ -34,8 +36,8 @@
 }
 
 .universebase h1 {
-                 font-family: 'Playfair Display';
-    font-weight: 400;
+              font-family: 'Radio Canada Big';
+    font-weight: bolder;
     text-align: left;
     text-shadow: 1px 1px 1px #000;
     color: var(--default);
@@ -48,42 +50,37 @@
     flex-direction: column;
     justify-content: center;
     padding-left: 45px;
-    padding-top: 5px;
     outline: 3px solid #141414;
     border: 1px solid #232323;
     border-radius: 10px;
 }
 
 .universebase h1::before {
-      content: "";
-    height: 100px;
-    width: 170px;
+        content: "";
+    height: 94px;
+    width: 210px;
     background-image: url(https://images2.imgbox.com/17/85/vfps9Xkt_o.png);
     background-size: cover;
     position: absolute;
     margin-left: 370px;
-    margin-top: -5px;
+    margin-top: -20px;
     z-index: 1;
     filter: contrast(0.5);
     opacity: .3;
-    background-position-y: -30px;
-
+    background-position-y: -60px;
 }
 
-
-
 .universebase-txt {
-      background: #2d2d2d;
+         background: #2d2d2d;
     padding: 40px;
     text-align: justify;
     border-radius: 5px;
     outline: 10px solid #1f1f1f;
     border: 2px solid #313131;
     margin-bottom: 35px;
-    margin-top: -105px;
+    margin-top: -210px;
     z-index: 4;
     position: relative;
-
 }
 
 /* Universe Picture */
@@ -117,8 +114,8 @@
 
 /* Universe Gradient */
 .universegrad {
-       width: 100%;
-    height: 390px;
+          width: 100%;
+    height: 440px;
     background: var(--profheader);
     clip-path: polygon(100% 0%, 0% 0%, 0.00% 69.63%, 6.67% 72.00%, 13.33% 73.68%, 20.00% 74.37%, 26.67% 73.95%, 33.33% 72.50%, 40.00% 70.27%, 46.67% 67.64%, 53.33% 65.06%, 60.00% 62.99%, 66.67% 61.78%, 73.33% 61.64%, 80.00% 62.60%, 86.67% 64.48%, 93.33% 66.97%, 100.00% 69.63%);
     margin-top: -110px;
