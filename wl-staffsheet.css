@@ -67,7 +67,7 @@
     margin-top: -20px;
     z-index: 1;
     filter: contrast(0.5);
-    opacity: .3;
+    opacity: .2;
     background-position-y: -60px;
     filter: var(--elementcolor);
 }
