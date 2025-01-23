@@ -160,27 +160,30 @@
 }
 
 .ucirc {
-         width: 73px;
+           width: 73px;
     height: 38px;
-    background-color: rgb(153 153 153 / 30%);
+    background-color: #292828;
     border-radius: 400px 400px 0 0;
-    margin-top: -38px;
-    margin-left: 367px;
+    margin-top: -68px;
+    margin-left: 250px;
     z-index: 3;
     position: absolute;
+    border: 3px solid #2d2d2d;
+    border-bottom: none;
 }
 
 .u-elbg {
-    width: 45px;
+       width: 45px;
     height: 45px;
     background: var(--lastbg);
     border-radius: 100%;
     border: 1px solid #5c5c5c;
-    margin-top: -25px;
+    margin-top: -55px;
     margin-bottom: 40px;
-    margin-left: 380px;
+    margin-left: 264px;
     z-index: 3;
     position: absolute;
+
 }
 
 .u-el {
