@@ -1,0 +1,109 @@
+.info-header {
+    width: 807px;
+    height: 180px;
+    background: #1f1f1f;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: -25px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: right;
+    padding-right: 105px;
+    padding-bottom: 15px;
+    line-height: 40px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #333;
+}
+
+.info-header-icon {
+    width: 330px;
+    height: 177px;
+    position: absolute;
+    background-image: url(https://images2.imgbox.com/17/85/vfps9Xkt_o.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -50px;
+    background-position-y: -59px;
+    margin-right: 370px;
+    margin-top: 15px;
+    filter: contrast(0.7) drop-shadow(1px 0px 1px #111);
+}
+
+.info-header-title {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Radio Canada Big';
+    background: var(--eventgrad);
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    -webkit-background-clip: text !important;
+    text-shadow: 0 0 3px;
+    filter: saturate(0.6) brightness(1.3);
+}
+
+.info-header-desc {
+    background: #2c2c2c;
+    margin-bottom: 10px;
+    padding: 0 15px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: 'Roboto';
+}
+
+.info-space {
+    height: 155px;
+}
+
+.info-flex {
+    display: flex;
+}
+
+.info-side {
+    width: 200px;
+    margin-left: -25px;
+    margin-right: 25px;
+    margin-top: -15px;
+    background-image: linear-gradient(to bottom, rgb(37 37 37), rgb(39 38 57 / 82%)), 
+        url(https://images2.imgbox.com/52/08/LghZBOCP_o.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 25px;
+    font-family: 'Josefin Sans';
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 100%;
+    color: var(--default);
+}
+
+.info-base {
+    width: 555px;
+    margin-top: -15px;
+    padding: 20px 10px 20px 20px;
+    font-size: 11px;
+    line-height: 165%;
+}
+
+.side-small {
+    font-size: 10px;
+    font-family: 'Roboto';
+    color: #c8c7c7;
+}
+
+.info-div {
+    width: 810px;
+    height: 3px;
+    background: #333;
+    margin-left: -25px;
+  position: absolute;
+}
+
+
