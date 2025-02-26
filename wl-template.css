@@ -82,3 +82,60 @@
     filter: saturate(0.5);
     background-position: center;
 }
+
+span.temp-span {
+    background: #282828;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: 900;
+    font-family: 'Roboto';
+    float: left;
+    margin-right: 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 11px;
+    color: var(--default);
+    filter: saturate(0.8);
+}
+
+.temp-block-icon {
+    width: 130px;
+    height: 110px;
+    background-position-x: -15px;
+    background-image: url(https://images2.imgbox.com/17/85/vfps9Xkt_o.png);
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -35px;
+    margin-top: -25px;
+    margin-left: -25px;
+    z-index: 1;
+    filter: var(--elementcolor);
+    opacity: .1;
+}
+
+.temp-block {
+    background: #2e2e2e;
+    width: 100%;
+    padding: 25px;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+temp-div {
+    font-size: 25px;
+    color: var(--default);
+    text-transform: uppercase;
+    font-family: 'Radio Canada Big';
+    font-weight: 800;
+    border-bottom: 1px solid #434242;
+    padding-bottom: 15px;
+    filter: saturate(0.8) brightness(0.8);
+}
+
+.temp-txt b {
+    color: var(--default);
+    font-family: 'Radio Canada Big';
+    text-transform: uppercase;
+    font-size: 11px;
+}
