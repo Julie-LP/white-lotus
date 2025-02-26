@@ -1,0 +1,83 @@
+.temp-color {
+    border-radius: 5px;
+    border: 2px solid #333;
+}
+.temp-header {
+    width: 757px;
+    background: #1f1f1f;
+    height: 180px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column-reverse;
+    text-align: right;
+    padding-right: 50px;
+    line-height: 40px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #333;
+    border-radius: 5px 5px 0px;
+}
+.temp-header-icon {
+    height: 177px;
+    width: 330px;
+    background-position-x: -50px;
+    background-image: url(https://images2.imgbox.com/17/85/vfps9Xkt_o.png);
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -59px;
+    margin-right: 375px;
+    margin-top: 15px;
+    filter: contrast(0.7) drop-shadow(1px 0px 1px #111);
+}
+
+.temp-header-title {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Radio Canada Big';
+    background: var(--eventgrad);
+    text-shadow: 0 0 3px;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    -webkit-background-clip: text !important;
+    filter: saturate(0.6) brightness(1.3);
+}
+
+.temp-header-desc {
+    background: #2c2c2c;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: 'Roboto';
+}
+
+.temp-base {
+    background: #141414;
+    margin-top: -34px;
+    padding: 30px;
+}
+
+.temp-txt {
+    border: var(--streepie);
+    border-radius: 10px;
+    padding: 50px;
+    background: #1d1d1d;
+    z-index: 2;
+    position: relative;
+}
+.temp-footer {
+    background-image: linear-gradient(to top, rgba(17, 17, 17, 0.81), rgb(24 24 24)), url(https://static.uwalls.ie/products/107000/107874/w01450v1p.jpg);
+    height: 200px;
+    background-size: cover;
+    margin-left: -30px;
+    width: 757px;
+    position: absolute;
+    margin-top: -170px;
+    border-radius: 5px;
+    filter: saturate(0.5);
+    background-position: center;
+}
