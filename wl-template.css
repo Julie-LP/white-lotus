@@ -134,6 +134,7 @@ span.temp-span {
     border-bottom: 1px solid #434242;
     padding-bottom: 15px;
     filter: saturate(0.8) brightness(0.8);
+        margin-top: 10px;
 }
 
 .temp-txt b {
