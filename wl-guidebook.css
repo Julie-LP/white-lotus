@@ -1,0 +1,770 @@
+* {
+  --sb-track-color: #171717;
+  --sb-thumb-color: #1d1d1d;
+  --sb-size: 5px;
+}
+
+/* Apply scrollbar styles to all scrollable elements */
+*::-webkit-scrollbar {
+  width: var(--sb-size);
+  height: var(--sb-size);
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 3px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 3px;
+}
+      
+      a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+}
+      
+       tw:hover {
+    filter: blur(0px);
+}
+
+tw {
+    filter: blur(4px);
+    transition: .3s;
+}
+
+      fire {
+      color: #AB7676;
+      font-weight:800;
+      }
+      
+      nwater {
+      color: #BCD0D7;
+      font-weight:800;
+      }
+      
+      swater {
+      color: #90B2C7;
+      font-weight:800;
+      }
+      
+      earth {
+      color: #90A86B;
+      font-weight:800;
+      }
+      
+      air {
+      color: #DBDBDB;
+      font-weight:800;
+      }
+      
+      foggy {
+      color: #819E93;
+      font-weight:800;
+      }
+      
+      sand {
+      color: #C4AC8D;
+      font-weight:800;
+      }
+      
+      spirit {
+      color: #9D91C4;
+      font-weight:800;
+      }
+                 
+
+        /* Base Styles */
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-image: url(https://i.servimg.com/u/f52/20/55/21/89/xx11.jpg);
+            background-size: cover;
+            padding-top: 60px;
+        }
+
+        .container {
+                   display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #313131;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    outline: 5px solid #181818;
+    border-radius: 10px;
+    border: 2px solid #333333;
+    color: #d7d7d7;
+    font-family: 'Roboto';
+
+        }
+
+        .menu {
+              width: 20%;
+    padding: 20px;
+    background-color: #272727;
+    position: sticky;
+    top: 0;
+    max-height: 100vh;
+    overflow-y: auto;
+    line-height: 65%;
+    font-size: 13px;
+    color: #ccc;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: 3px solid #333;
+        }
+
+        .menu ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .menu ul li {
+            margin-bottom: 0px;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            color: #bababa;
+            position: relative;
+            padding: 5px;
+            padding-left: 15px;
+            font-weight: bolder;
+            text-transform: uppercase;
+            font-size: 11px;
+            letter-spacing: 1px;
+            display: block;
+            height: auto;
+            transition: color 0.3s ease;
+        }
+
+        .menu ul li a:hover {
+            color: #747474;
+        }
+
+        .menu ul li a::before {
+            content: "";
+            display: inline-block;
+            transform: translateY(-0.6rem);
+            margin-left: -16px;
+            width: 10px; /* Default width */
+            border-top: 1px solid;
+            margin-bottom: -5px;
+            margin-right: 10px;
+            transition: width 0.3s ease; 
+        }
+
+        .menu ul li a.active::before {
+            width: 20px; 
+        }
+
+        .menu ul li a.active {
+            color: #ffffff; 
+        }
+
+        .menu ul li a.active:hover {
+            color: #cccccc; 
+        }
+
+        .menu ul li.header {
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 13px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            background: linear-gradient(90deg, #434343, #434343);
+            padding: 15px;
+            border-radius: 5px;
+            color: #dfdfdf;
+            padding-left: 20px;
+        }
+
+        .dropdown {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-in-out; /* Smooth transition for both opening and closing */
+            padding-left: 20px;
+            padding-top: 0; /* Padding collapse initially */
+            padding-bottom: 0;
+        }
+
+        .dropdown.show {
+             background: #2d2d2d;
+    padding: 17px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #3b3b3b;
+    outline: 3px solid #252525;
+        }
+
+        .dropdown-icon {
+            position: absolute;
+            right: 10px;
+        }
+
+        .return-button {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            background-color: #ddd;
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .return-button:hover {
+            background-color: #ccc;
+        }
+
+        .content {
+                width: 860px;
+    padding: 50px;
+    text-align: justify;
+    line-height: 120%;
+    font-size: 12px;
+    background-color: #313131;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+        }
+
+        .content-section {
+            display: none; /* Hide all sections by default */
+        }
+
+        .content-section.active {
+            display: block; /* Show the active section */
+        }
+
+        .content h2 {
+         color: #f1f1f1;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 900;
+    height: 150px;
+    width: 905px;
+    display: flex;
+    align-items: flex-start;
+    line-height: 100%;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    margin-left: -50px;
+    padding-left: 55px;
+    background-image: linear-gradient(to left, rgb(28 28 28 / 95%), rgb(39 39 39 / 95%)), url(https://wallpapercave.com/wp/wp2154227.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 00px 10px 0px 0px;
+    flex-direction: column;
+    padding-top: 15px;
+   border-bottom: 10px solid #292929;
+        }
+      .h2-small {
+      background: #333333;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: 'Roboto';
+    margin-top: 10px;
+}
+      .h2-icon {
+    height: 169px;
+    width: 330px;
+    background-position-x: 40px;
+    background-image: url(https://images2.imgbox.com/17/85/vfps9Xkt_o.png);
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -60px;
+    margin-top: -10px;
+    filter: contrast(0.6) drop-shadow(0px 0px 1px #111);
+    margin-left: 574px;
+}
+      
+      .content h3 {
+         background: #232323;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid #363636;
+    outline: 3px solid #353535;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #ababab;
+    height: 90px;
+    display: flex;
+    font-family: 'Roboto';
+    align-items: center;
+    padding-left: 35px;
+    line-height: 100%;
+}
+.h3-icon {
+height: 85px;
+    width: 260px;
+    margin-left: 510px;
+    background-size: cover;
+    background-position-y: -100px;
+    background-repeat: no-repeat;
+    filter: contrast(0.6) drop-shadow(1px 0px 1px black);
+    z-index: 2;
+    position: absolute;
+     
+}
+
+      .h3-txt {
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Radio Canada Big';
+    background: linear-gradient(180deg, #4f4f4f, #3d3d3d);
+    text-shadow: 0 0 3px;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    -webkit-background-clip: text !important;
+    filter: saturate(0.6) brightness(1.6);
+}
+      
+      h4 {
+       font-size: 20px;
+    color: #858585;
+    text-transform: uppercase;
+    font-family: 'Radio Canada Big';
+    font-weight: 900;
+    margin-bottom: 20px;
+    display: flex;
+    white-space: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+      h4::after {
+    content: "";
+    border-top: 1px solid;
+    position: relative;
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+    margin-left: 15px;
+    color: #5b5b5b;
+}
+      h5 {
+    font-size: 15px;
+    color: #858585;
+    text-transform: uppercase;
+    font-family: 'Radio Canada Big';
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+      .guide-block {
+    background: #434343;
+    padding: 25px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+      .guide-bot {
+    background: #212121;
+    height: 45px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-left: 30px;
+    border: 2px solid #2d2d2d;
+    border-radius: 5px;
+}
+      .bot-icon {
+  width: 115px;
+    height: 45px;
+    background-position-x: -15px;
+    background-image: url(https://images2.imgbox.com/17/85/vfps9Xkt_o.png);
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -25px;
+    margin-left: -30px;
+    z-index: 1;
+    filter: contrast(0) brightness(1.5);
+    opacity: .08;
+}
+      .guide-bot a {
+    text-decoration: none;
+    color: #b5b5b5;
+    z-index: 2;
+}
+      .block-icon {
+    width: 180px;
+    height: 65px;
+    background-position-x: -15px;
+    background-image: url(https://images2.imgbox.com/17/85/vfps9Xkt_o.png);
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -30px;
+    margin-top: -25px;
+    margin-left: -25px;
+    z-index: 1;
+    filter: contrast(0) brightness(1.5);
+    opacity: .1;
+}
+        .content p {
+            color: #d6d6d6;
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+            text-shadow: 1px 1px 1px black;
+        }
+
+      .rules-nr {
+    background: #292929;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: 900;
+    font-family: 'Radio Canada Big';
+    border: 2px solid #383737;
+}
+      .rules-txt {
+   
+    align-items: center;
+    margin-top: 20px;
+}
+      .rules-flex {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+}
+       .lorepic {
+       width: 250px;
+    height: 255px;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    border: 1px solid #4b4b4b;
+    outline: 5px solid #232323;
+    background-size: cover;
+    filter: saturate(0.5) contrast(0.8) brightness(0.8);
+    border-radius: 5px;
+}
+      .chakras {
+    float: right;
+    width: 493px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+      .chakra-base {
+    display: flex;
+    gap: 20px;
+}
+      
+.chakra-img {
+    width: 95px;
+    height: 75px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+      .chakra-txt {
+    font-size: 12px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+}
+      .chakra-txt b {
+    text-transform: uppercase;
+    font-family: 'Radio Canada Big';
+    color: #e4e1e1;
+    font-size: 11px;
+}
+      .pilgrims {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+      .pilgrim {
+    display: flex;
+    flex-direction: column;
+    background: #3b3b3b;
+    width: 195px;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    border-radius: 5px;
+    border: 2px solid #444;
+    outline: 3px solid #222;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Radio Canada Big';
+    font-size: 20px;
+    line-height: 100%;
+}
+      span.pilgrim-tit {
+    font-size: 9px;
+    color: #989090;
+}
+      
+      .sacred-img {
+         background-image: url(https://img.freepik.com/free-vector/gradient-golden-linear-background_52683-61764.jpg);
+    height: 203px;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(1) contrast(0.9) brightness(0.7);
+    outline: 3px solid #2d2c2c;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+      .sacred-base {
+          background: linear-gradient(45deg, black, transparent);
+    height: 201px;
+    margin-top: -203px;
+    z-index: 2;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid #414040;
+}
+      .sacred-tit {
+      text-transform: uppercase;
+    font-weight: 900;
+    font-size: 25px;
+    margin-right: 455px;
+    width: 375px;
+    line-height: 100%;
+    text-align: center;
+}
+      .sacred-txt {
+    width: 310px;
+      width: 375px;
+    margin-right: 455px;
+    border-top: 1px solid #777;
+    margin-top: 15px;
+    padding-top: 15px;
+    font-size: 10px;
+}
+
+.sacred-location {
+    background: #313131;
+    padding: 10px;
+    margin-left: 80%;
+    position: absolute;
+    margin-right: 25px;
+    margin-top: 115px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 9px;
+    color: #fff;
+}
+      
+      .herb {
+    width: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-radius: 5px;
+          filter: saturate(0.7);
+}
+      .herb-flex {
+    display: flex;
+    gap: 14px;
+}
+      .herb-small {
+    font-size: 8px;
+    color: #c8c8c8;
+}
+       .wb {
+    background: linear-gradient(to right, rgb(47 54 60 / 85%), rgb(25 60 80 / 85%)), url(https://images8.alphacoders.com/133/1337839.png);
+    height: 210px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid #545454;
+    outline: 5px solid #292929;
+    filter: saturate(0.5);
+    padding: 50px;
+}
+      
+      .wq {
+      color: #bababa;
+    background: rgb(66 66 66 / 40%);
+    padding: 50px;
+    border-radius: 10px;
+    font-style: italic;
+    font-family: playfair display;
+    text-transform: lowercase;
+    font-size: 25px;
+    line-height: 130%;
+    text-align: left;
+    mix-blend-mode: screen;
+    backdrop-filter: blur(5px);
+}
+      
+      .wp {
+   height: 150px;
+    background: #3c3c3c;
+    width: 275px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #545454;
+    outline: 5px solid #292929;
+    background-size: cover;
+    background-position: center;
+}
+      
+      .wf {
+    display: flex;
+    gap: 20px;
+}
+      .n-flex {
+       display: flex;
+    margin-top: 15px;
+    gap: 15px;
+    justify-content: center;
+}
+      .n-small {
+    font-size: 10px;
+    color: #9d9d9d;
+}
+      
+      .nation-main {
+    background: #282828;
+    padding: 30px;
+    border-radius: 5px;
+    outline: 3px solid #353535;
+    border: 2px solid #292929;
+      width:500px;
+}
+      .n-inf {
+    background: #282828;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    outline: 3px solid #353535;
+    border: 2px solid #292929;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Radio Canada Big';
+    font-size: 16px;
+}
+      .n-bars {
+    width: 280px;
+    background: #282828;
+    padding: 25px;
+    border-radius: 5px;
+    outline: 3px solid #353535;
+    border: 2px solid #292929;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Radio Canada Big';
+    text-align: right;
+    padding-bottom: 0;
+    align-items: center;
+    padding-top: 20px;
+    color: #d7d7d7;
+}
+      .n-bar {
+    width: 100%;
+    background-color: #333333;
+    border-radius: 5px;
+    border: 1px solid #414141;
+    outline: 5px solid #252525;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.n-per {
+    width: 30%;
+    height: 15px;
+    background-color: #000000;
+    border-radius: 0px 50px 50px 0px;
+}
+      
+#progressContainer {
+    width: 100%;
+    background-color: #afacac;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    border: 1px solid #414141;
+    outline: 5px solid #252525;
+    margin-bottom: 15px;
+}
+
+#progressBar {
+    width: 30%;
+    height: 70px;
+    background-color: #000000;
+    border-radius: 0px 50px 50px 0px;
+  
+}
+
+.percentage {
+     position: absolute;
+    right: 70%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    color: #dedede;
+    padding-right: 50px;
+    font-weight: 800;
+}
+      
+      span.ptxt {
+    color: #b6b6b6;
+    font-weight: 700;
+    font-size: 8px;
+    padding-left: 20px;
+    text-shadow: 1px 1px 1px #000;
+    letter-spacing: 1px;
+}
+      
+      .bf {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+      
+      .btit {
+    font-size: 35px;
+    font-weight: 800;
+    color: #c8c8c8;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000;
+}
+      
+      .bl {
+    max-width: 340px;
+    margin-left: 15px;
+    background: #5e5e5e;
+    height: 1px;
+    margin-top: 10px;
+    width: 100%;
+}
