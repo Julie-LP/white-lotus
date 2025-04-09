@@ -224,11 +224,12 @@ tw {
         }
 
         .content {
-                width: 860px;
+               width: 860px;
     padding: 50px;
     text-align: justify;
-    line-height: 120%;
-    font-size: 12px;
+    line-height: 150%;
+    font-size: 12.4px;
+    color: #aba7a7;
     background-color: #313131;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
