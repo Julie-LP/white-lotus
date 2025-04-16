@@ -228,7 +228,7 @@ tw {
 .re-icon {
     width: 90px;
     height: 25px;
-    background-image: url(https://images2.imgbox.com/17/85/vfps9Xkt_o.png);
+    background-image:url(https://images2.imgbox.com/17/85/vfps9Xkt_o.png);
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
@@ -241,7 +241,8 @@ tw {
 }
 
         .return-button:hover {
-            background-color: #ccc;
+               background-color: #494949;
+    transition: .3s;
         }
 
         .content {
