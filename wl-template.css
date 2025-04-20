@@ -143,3 +143,35 @@ span.temp-span {
     text-transform: uppercase;
     font-size: 11px;
 }
+
+.temp-dice-base {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.temp-dice {
+    width: 110px;
+    height: 110px;
+    background-image: url(https://images2.imgbox.com/b7/9a/bRJEKQpT_o.png);
+    background-size: cover;
+    filter: var(--elementcolor) brightness(0.5) drop-shadow(1px 1px 10px #000) saturate(0.5);
+    opacity: .7;
+}
+.temp-roll {
+    border-radius: 100%;
+    margin-top: -85px;
+    background: #2a2a2a;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    padding-top: 3px;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 37px;
+    font-family: 'Oranienbaum';
+    outline: var(--moodboard);
+    color: var(--default);
+    filter: brightness(1.1) saturate(0.8) contrast(0.9);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 1px 1px 8px #111;
+}
