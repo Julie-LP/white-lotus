@@ -175,3 +175,17 @@ span.temp-span {
     filter: brightness(1.1) saturate(0.8) contrast(0.9);
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 1px 1px 8px #111;
 }
+.temp-pic {
+    background: red;
+    height: 130px;
+    width: 180px;
+    position: absolute;
+    margin-right: 490px;
+    z-index: 3;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-size: cover;
+    filter: saturate(0.2) brightness(0.5) contrast(0.9);
+    outline: 8px solid #494646;
+    background-position: center;
+}
