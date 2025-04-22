@@ -160,6 +160,7 @@ span.temp-span {
 .temp-roll {
     border-radius: 100%;
     margin-top: -85px;
+margin-bottom: 10px;
     background: #2a2a2a;
     height: 60px;
     width: 60px;
