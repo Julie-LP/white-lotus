@@ -176,8 +176,7 @@ span.temp-span {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 1px 1px 8px #111;
 }
 .temp-pic {
-    background: red;
-    height: 130px;
+  height: 130px;
     width: 180px;
     position: absolute;
     margin-right: 490px;
@@ -186,6 +185,7 @@ span.temp-span {
     border-radius: 10px;
     background-size: cover;
     filter: saturate(0.2) brightness(0.5) contrast(0.9);
-    outline: 8px solid #494646;
+    outline: 8px solid #1d1d1d;
+    border: 3px solid #2c2c2c;
     background-position: center;
 }
