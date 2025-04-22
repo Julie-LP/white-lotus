@@ -160,7 +160,6 @@ span.temp-span {
 .temp-roll {
     border-radius: 100%;
     margin-top: -85px;
-margin-bottom: 10px;
     background: #2a2a2a;
     height: 60px;
     width: 60px;
@@ -189,4 +188,19 @@ margin-bottom: 10px;
     outline: 8px solid #1d1d1d;
     border: 3px solid #2c2c2c;
     background-position: center;
+}
+.temp-dice-txt {
+    background: #2e2e2e;
+    padding: 25px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.temp-flex {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
