@@ -204,3 +204,17 @@ span.temp-span {
     justify-content: center;
     margin-bottom: 20px;
 }
+.temp-chapter {
+    padding: 30px;
+    background: linear-gradient(to right, rgb(44 44 44 / 100%), rgb(58 58 58 / 80%)), url(https://images2.imgbox.com/ac/21/HNs1gbb9_o.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: saturate(0.5);
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    outline: 5px solid #181818;
+    border: 2px solid #353535;
+    color: #fff;
+}
