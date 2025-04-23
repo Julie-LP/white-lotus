@@ -187,7 +187,9 @@ font-size: 20px;
     justify-content: center;
     flex-direction: column;
 }
-
+.i-update-box a {
+    color: #fefefe;
+}
 .i-update {
     text-transform: uppercase;
     font-weight: 900;
