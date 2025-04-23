@@ -11,8 +11,9 @@
 .carousel-container {
     position: relative;
     width: 1149px;
-    height: 200px;
+    height: 210px;
     overflow: hidden;
+border-bottom: 10px solid #2d2d2d;
 }
 
 .carousel-slide {
@@ -65,12 +66,15 @@
 }
 
 .slide-box {
-  background: rgba(151 151 151 / 40%);
-  padding:20px;
-  width: 500px;
-  margin-left:30px;
-  border-radius:10px;
-font-size:12px;
+ background: rgb(33 33 33 / 48%);
+    padding: 30px;
+    width: 500px;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 140%;
+    backdrop-filter: blur(3px);
 }
 
 .slide-tit {
@@ -79,11 +83,12 @@ font-size:12px;
     align-items: center;
     justify-content: center;
     width: 370px;
-    font-size: 30px;
+    font-size: 36px;
     text-transform: uppercase;
     font-family: Radio Canada Big;
     font-weight: 900;
-margin-right: 10px;
+    margin-right: 50px;
+    margin-left: -15px;
 }
 
 .slide-tit-smol {
@@ -93,4 +98,113 @@ margin-right: 10px;
     min-width: 330px;
     text-align: center;
     margin-top: 5px;
+}
+.index-flex {
+    display: flex;
+    border-bottom: 10px solid #2d2d2d;
+}
+.indexleft {
+    background: #1f1f1f;
+    clip-path: polygon(0 0, 64% 0, 55% 100%, 0% 100%);
+    height: 270px;
+    display: flex;
+    width: 1149px;
+    z-index: 1;
+}
+.i-welcome {
+    width: 400px;
+    margin-left: 40px;
+    text-align: justify;
+    font-size: 11px;
+    margin-top: 30px;
+}
+.i-squares {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-left: 35px;
+}
+.i-square {
+    height: 70px;
+    width: 70px;
+    background: #363636;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+transition: .3s;
+}
+.i-square .tooltip {
+    visibility: hidden;
+    background-color: rgb(16 16 16 / 40%);
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: -26px;
+    text-transform: uppercase;
+}
+.i-square:hover .tooltip {
+    visibility: visible;
+}
+.indexright {
+    position: absolute;
+    z-index: 0;
+    margin-left: 630px;
+    background: #773434;
+    height: 270px;
+    width: 519px;
+    background-image: linear-gradient(to bottom, rgb(75 75 75 / 70%), rgb(37 37 37 / 95%)), url(https://internalwudangstore.net/wp-content/uploads/2017/04/34-Stainless-Steel-Han-Sword.jpg);
+    background-size: cover;
+    filter: grayscale(1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.i-update {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: #aeaeae;
+    margin-left: 298px;
+    background: rgb(8 8 8 / 40%);
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Roboto';
+    border-radius: 10px;
+    line-height: 75%;
+    backdrop-filter: blur(3px);
+    font-size: 9px;
+}
+.i-update-box {
+    background: rgb(127 127 127 / 40%);
+    padding: 30px;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Radio Canada Big';
+    font-weight: 900;
+    color: #f0f0f0;
+    margin-left: 80px;
+    border-radius: 10px;
+    line-height: 75%;
+    backdrop-filter: blur(3px);
+}
+.i-update-smol {
+    font-size: 10px;
+    color: #ccc;
+}
+.i-square:hover {
+    background: #4a4a4a;
+    transition: .3s;
 }
