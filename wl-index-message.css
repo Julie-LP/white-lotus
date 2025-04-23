@@ -10,7 +10,7 @@
 }
 .carousel-container {
     position: relative;
-    width: 1049px;
+    width: 1149px;
     height: 200px;
     overflow: hidden;
 }
@@ -23,7 +23,7 @@
 }
 
 .slide-content {
-    width: 1049px;
+    width: 1149px;
     height: 200px;
     flex-shrink: 0;
     display: flex;
