@@ -34,12 +34,13 @@
 }
 
 .wlpic {
-    height: 130px;
-    width: 130px;
+       height: 150px;
+    width: 150px;
     background: #333;
     margin-top: -105px;
     margin-bottom: 50px;
-    outline: 30px solid #000000;
+    outline: 20px solid #000000;
+    border: 5px solid #212121;
     border-radius: 100%;
     z-index: 3;
     position: relative;
