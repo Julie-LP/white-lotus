@@ -118,6 +118,15 @@ border-bottom: 10px solid #2d2d2d;
     font-size: 11px;
     margin-top: 30px;
 }
+.i-welcome-tit {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Radio Canada Big';
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ebebeb;
+}
 .i-squares {
     display: flex;
     gap: 15px;
@@ -134,6 +143,15 @@ border-bottom: 10px solid #2d2d2d;
     align-items: center;
     justify-content: center;
 transition: .3s;
+font-size: 20px;
+    font-weight: 900;
+    color: #666666;
+}
+.i-icons {
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    filter: contrast(0.2);
 }
 .i-square .tooltip {
     visibility: hidden;
