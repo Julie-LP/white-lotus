@@ -238,3 +238,17 @@ span.temp-name {
     border-radius: 5px;
     justify-content: space-between;
 }
+
+.temp-quote {
+    color: var(--default);
+    text-transform: uppercase;
+    font-family: 'AvatarAirbender';
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #5e5e5e;
+    padding-bottom: 30px;
+    font-style: italic;
+    filter: brightness(0.9);
+    text-shadow: 0px 0px 10px #111;
+}
