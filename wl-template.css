@@ -251,3 +251,11 @@ span.temp-name {
     filter: brightness(0.9);
     text-shadow: 0px 0px 10px #111;
 }
+
+h4 {
+    text-transform: uppercase;
+    font-family: 'Radio Canada Big';
+    font-size: 15px;
+    color: var(--default);
+    filter: saturate(0.9) brightness(0.9);
+}
