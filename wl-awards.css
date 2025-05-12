@@ -1,120 +1,120 @@
 /**SEASON**/
 
 .summerbaby {
-    --award-image: url(https://images2.imgbox.com/a5/52/6buD0kYW_o.png);
-    --award-tooltip: "born in summer";
+    --trait-image: url(https://images2.imgbox.com/a5/52/6buD0kYW_o.png);
+    --trait-tooltip: "born in summer";
 }
 
 .springbaby {
-    --award-image: url(https://images2.imgbox.com/14/24/rHeWwjTW_o.png);
-    --award-tooltip: "born in spring";
+    --trait-image: url(https://images2.imgbox.com/14/24/rHeWwjTW_o.png);
+    --trait-tooltip: "born in spring";
 }
 
 .fallbaby {
-    --award-image: url(https://images2.imgbox.com/78/d3/JqDN5rEW_o.png);
-    --award-tooltip: "born in fall";
+    --trait-image: url(https://images2.imgbox.com/78/d3/JqDN5rEW_o.png);
+    --trait-tooltip: "born in fall";
 }
 
 .winterbaby {
-    --award-image: url(https://images2.imgbox.com/04/54/2ouaRSBS_o.png);
-    --award-tooltip: "born in winter";
+    --trait-image: url(https://images2.imgbox.com/04/54/2ouaRSBS_o.png);
+    --trait-tooltip: "born in winter";
 }
 
 /**LOVE & RELATIONSHIPS**/
 
 .heartache {
-    --award-image: url(https://images2.imgbox.com/ed/58/Kc85Y0vJ_o.png);
-    --award-tooltip: "heartache";
+    --trait-image: url(https://images2.imgbox.com/ed/58/Kc85Y0vJ_o.png);
+    --trait-tooltip: "heartache";
 }
 .flirt {
-    --award-image: url(https://images2.imgbox.com/2e/0f/yFEEPMHf_o.png);
-    --award-tooltip: "is a flirt";
+    --trait-image: url(https://images2.imgbox.com/2e/0f/yFEEPMHf_o.png);
+    --trait-tooltip: "is a flirt";
 }
 .simp {
-    --award-image: url(https://images2.imgbox.com/37/ad/lWE3EaLm_o.png);
-    --award-tooltip: "is a simp";
+    --trait-image: url(https://images2.imgbox.com/37/ad/lWE3EaLm_o.png);
+    --trait-tooltip: "is a simp";
 }
 .love {
-    --award-image: url(https://images2.imgbox.com/bd/20/Ay2JfWAK_o.png);
-    --award-tooltip: "in love";
+    --trait-image: url(https://images2.imgbox.com/bd/20/Ay2JfWAK_o.png);
+    --trait-tooltip: "in love";
 }
 
 .engaged {
-    --award-image: url(https://images2.imgbox.com/ff/27/PvSuskPC_o.png);
-    --award-tooltip: "engaged";
+    --trait-image: url(https://images2.imgbox.com/ff/27/PvSuskPC_o.png);
+    --trait-tooltip: "engaged";
 }
 .married {
-    --award-image: url(https://i.servimg.com/u/f17/20/56/04/31/rings10.png);
-    --award-tooltip: "married";
+    --trait-image: url(https://i.servimg.com/u/f17/20/56/04/31/rings10.png);
+    --trait-tooltip: "married";
 }
 
 .cheated {
-    --award-image: url(https://images2.imgbox.com/04/10/3DWH59jw_o.png);
-    --award-tooltip: "cheated";
+    --trait-image: url(https://images2.imgbox.com/04/10/3DWH59jw_o.png);
+    --trait-tooltip: "cheated";
 }
 
 .mommy {
-    --award-image: url(https://images2.imgbox.com/b1/39/EeAxc5p2_o.png);
-    --award-tooltip: "mommy issues";
+    --trait-image: url(https://images2.imgbox.com/b1/39/EeAxc5p2_o.png);
+    --trait-tooltip: "mommy issues";
 }
 
 .daddy {
-    --award-image: url(https://images2.imgbox.com/19/a7/SWY7byQX_o.png);
-    --award-tooltip: "daddy issues";
+    --trait-image: url(https://images2.imgbox.com/19/a7/SWY7byQX_o.png);
+    --trait-tooltip: "daddy issues";
 }
 
 .parent {
-    --award-image: url(https://images2.imgbox.com/11/f7/LVneTQst_o.png);
-    --award-tooltip: "parent";
+    --trait-image: url(https://images2.imgbox.com/11/f7/LVneTQst_o.png);
+    --trait-tooltip: "parent";
 }
 
 /**SKILLS**/
 
 .hunter {
-    --award-image: url(https://images2.imgbox.com/16/42/EMOj1BEa_o.png);
-    --award-tooltip: "hunter";
+    --trait-image: url(https://images2.imgbox.com/16/42/EMOj1BEa_o.png);
+    --trait-tooltip: "hunter";
 }
 .swordsman {
-    --award-image: url(https://images2.imgbox.com/36/18/xWH6iGrA_o.png);
-    --award-tooltip: "swordsman";
+    --trait-image: url(https://images2.imgbox.com/36/18/xWH6iGrA_o.png);
+    --trait-tooltip: "swordsman";
 }
 /**BENDING**/
 
 .metal {
-    --award-image: url(https://images2.imgbox.com/c0/89/0jHAGYTr_o.png);
-    --award-tooltip: "metalbender";
+    --trait-image: url(https://images2.imgbox.com/c0/89/0jHAGYTr_o.png);
+    --trait-tooltip: "metalbender";
 }
 
 .lightning {
-    --award-image: url(https://images2.imgbox.com/14/e5/IUybRKeW_o.png);
-    --award-tooltip: "lightningbender";
+    --trait-image: url(https://images2.imgbox.com/14/e5/IUybRKeW_o.png);
+    --trait-tooltip: "lightningbender";
 }
 
 .blood {
-    --award-image: url(https://images2.imgbox.com/eb/4d/ulVcumWn_o.png);
-    --award-tooltip: "bloodbender";
+    --trait-image: url(https://images2.imgbox.com/eb/4d/ulVcumWn_o.png);
+    --trait-tooltip: "bloodbender";
 }
 
 .healer {
-    --award-image: url(https://images2.imgbox.com/84/dc/gBuvDC6r_o.png);
-    --award-tooltip: "healer";
+    --trait-image: url(https://images2.imgbox.com/84/dc/gBuvDC6r_o.png);
+    --trait-tooltip: "healer";
 }
 
 /**STATUS**/
 
 .peasant {
-    --award-image: url(https://images2.imgbox.com/f3/cc/UQfrCM7W_o.png);
-    --award-tooltip: "peasant";
+    --trait-image: url(https://images2.imgbox.com/f3/cc/UQfrCM7W_o.png);
+    --trait-tooltip: "peasant";
 }
 
 .nobility {
-    --award-image: url(https://images2.imgbox.com/03/9e/XQPzSLch_o.png);
-    --award-tooltip: "nobilty";
+    --trait-image: url(https://images2.imgbox.com/03/9e/XQPzSLch_o.png);
+    --trait-tooltip: "nobilty";
 }
 
 .royalty {
-    --award-image: url(https://images2.imgbox.com/cc/ee/NtP0pcfx_o.png);
-    --award-tooltip: "royalty";
+    --trait-image: url(https://images2.imgbox.com/cc/ee/NtP0pcfx_o.png);
+    --trait-tooltip: "royalty";
 }
 
 /**TRAITS**/
@@ -126,11 +126,11 @@
 /**MISC**/
 
 .pet {
-    --award-image: url(https://images2.imgbox.com/a5/f2/fbQQsNma_o.png);
-    --award-tooltip: "pet owner";
+    --trait-image: url(https://images2.imgbox.com/a5/f2/fbQQsNma_o.png);
+    --trait-tooltip: "pet owner";
 }
 
 .mount {
-    --award-image: url(https://images2.imgbox.com/cb/5f/NNaOCGhx_o.png);
-    --award-tooltip: "has a mount";
+    --trait-image: url(https://images2.imgbox.com/cb/5f/NNaOCGhx_o.png);
+    --trait-tooltip: "has a mount";
 }
