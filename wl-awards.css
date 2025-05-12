@@ -78,12 +78,13 @@
     --trait-image: url(https://images2.imgbox.com/36/18/xWH6iGrA_o.png);
     --trait-tooltip: "swordsman";
 }
+
+.soldier {
+    --trait-image: url(https://images2.imgbox.com/30/7e/RNf6mMTn_o.png);
+    --trait-tooltip: "solder";
+}
 /**BENDING**/
 
-.metal {
-    --trait-image: url(https://images2.imgbox.com/c0/89/0jHAGYTr_o.png);
-    --trait-tooltip: "metalbender";
-}
 
 .lightning {
     --trait-image: url(https://images2.imgbox.com/14/e5/IUybRKeW_o.png);
@@ -102,9 +103,9 @@
 
 /**STATUS**/
 
-.peasant {
+.commoner {
     --trait-image: url(https://images2.imgbox.com/f3/cc/UQfrCM7W_o.png);
-    --trait-tooltip: "peasant";
+    --trait-tooltip: "commoner";
 }
 
 .nobility {
@@ -117,11 +118,47 @@
     --trait-tooltip: "royalty";
 }
 
+.wanted {
+    --trait-image: url(https://images2.imgbox.com/af/09/GYi7tMgQ_o.png);
+    --trait-tooltip: "wanted";
+}
+
+.criminal {
+    --trait-image: url(https://images2.imgbox.com/b3/59/RQjXxcZ7_o.png);
+    --trait-tooltip: "criminal";
+}
+
 /**TRAITS**/
 
-/**FEARS**/
+.bookworm {
+    --trait-image: url(https://images2.imgbox.com/66/50/9IVA9UlM_o.png);
+    --trait-tooltip: "bookworm";
+}
 
-/**EVENTS**/
+.vegetarian {
+    --trait-image: url(https://imgbox.com/mbE7fufq);
+    --trait-tooltip: "vegetarian";
+}
+
+.carnivore {
+    --trait-image: url(https://images2.imgbox.com/4a/0a/VagQfLHZ_o.png);
+    --trait-tooltip: "carnivore";
+}
+
+.tea {
+    --trait-image: url(https://images2.imgbox.com/62/28/pWMn1zXg_o.png);
+    --trait-tooltip: "tea connoisseur";
+}
+
+.spice {
+    --trait-image: url(https://images2.imgbox.com/11/87/sovzw7Ka_o.png);
+    --trait-tooltip: "likes spice";
+}
+
+.spice {
+    --trait-image: url(https://images2.imgbox.com/88/85/k3BW1rEF_o.png);
+    --trait-tooltip: "traveller";
+}
 
 /**MISC**/
 
