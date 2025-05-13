@@ -261,3 +261,34 @@ h4 {
 }
 
 
+.temp-fc-tit {
+    font-weight: 300;
+    font-size: 15px;
+    padding: 20px;
+    margin-bottom: -7px;
+    border-bottom: 1px solid #333;
+}
+
+.faceclaims {
+    background: #282828;
+    display: flex;
+    place-content: space-between;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    margin-bottom: -10px;
+    outline: 3px solid #1c1c1c;
+    border: 2px solid #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Radio Canada Big';
+}
+
+div#female {
+    color: #a4969c;
+}
+
+div#male {
+    color: #8794a1;
+}
