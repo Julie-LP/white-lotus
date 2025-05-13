@@ -260,32 +260,4 @@ h4 {
     filter: saturate(0.9) brightness(0.9);
 }
 
-  .wl-checkbox {
-    display: none;
-  }
-
-  .wl-button {
-    background-color: #444;
-    color: white;
-    display: block;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 10px;
-  }
-
-  .wl-content {
-    max-height: 0;
-    overflow: hidden;
-    background-color: #222;
-    color: white;
-    padding: 0 15px;
-    transition: max-height 0.3s ease, padding 0.3s ease;
-  }
-
-  .wl-checkbox:checked + .wl-button + .wl-content {
-    max-height: 500px;
-    padding: 10px 15px;
-  }
-
 
