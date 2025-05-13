@@ -260,7 +260,7 @@ h4 {
     filter: saturate(0.9) brightness(0.9);
 }
 
-  .wl-toggle input[type="checkbox"] {
+  .wl-checkbox {
     display: none;
   }
 
@@ -271,8 +271,7 @@ h4 {
     padding: 10px;
     cursor: pointer;
     font-size: 16px;
-    border: none;
-    margin-bottom: 5px;
+    margin-top: 10px;
   }
 
   .wl-content {
@@ -281,11 +280,12 @@ h4 {
     background-color: #222;
     color: white;
     padding: 0 15px;
-    transition: max-height 0.3s ease;
+    transition: max-height 0.3s ease, padding 0.3s ease;
   }
 
-  .wl-toggle input[type="checkbox"]:checked + .wl-button + .wl-content {
-    max-height: 500px; /* adjust if your content is taller */
+  .wl-checkbox:checked + .wl-button + .wl-content {
+    max-height: 500px;
     padding: 10px 15px;
   }
-</style>
+
+
