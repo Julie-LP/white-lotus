@@ -795,3 +795,32 @@ height: 85px;
     margin-top: 10px;
     width: 100%;
 }
+.nations-butt-flex {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.nations-butt {
+    background: #646464;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 125px;
+    justify-content: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #dfdfdf;
+    font-size: 23px;
+    font-family: 'Radio Canada Big';
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #424242;
+    outline: 3px solid #2b2b2b;
+}
+span.nations-small {
+    font-size: 12px;
+    color: #afafaf;
+}
