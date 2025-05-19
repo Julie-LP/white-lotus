@@ -153,6 +153,8 @@ span.tt-location {
     border-bottom: 1px solid #333;
     padding-bottom: 16px;
     margin-bottom: -5px;
+            text-transform: uppercase;
+
 }
 .tt-desc {
     background: #2f2e2e;
