@@ -175,6 +175,12 @@ span.tt-status {
     color: #dddddd;
 }
 
+.tt-bar {
+    margin-top: -30px;
+    position: absolute;
+    text-align: right;
+    width: 715px;
+}
 
 span.tt-status.finished {
     background: #3a5841;
