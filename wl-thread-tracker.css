@@ -183,14 +183,35 @@ span.tt-location {
     justify-content: center;
     text-align: center;
     height: 250px;
-    text-transform: lowercase;
-    font-size: 35px;
+    text-transform: uppercase;
+    font-size: 30px;
     line-height: 100%;
-    font-weight: 300;
-    font-style: italic;
-    font-family: 'Playfair Display';
-    text-shadow: 0px 0px 10px;
+    font-weight: 600;
+    font-family: 'Josefin Sans';
     color: #e0e0e0;
+    font-style: italic;
+}
+.track-quote::before {
+    content: "";
+    height: 100px;
+    width: 100px;
+    background-image: url(https://westparkcultural.org/wp-content/uploads/2021/12/Quotation-Mark-PNG-Image.png);
+    background-size: cover;
+    filter: contrast(0.1) brightness(2);
+    opacity: .3;
+    margin-top: -125px;
+}
+.track-quote::after {
+    content: "";
+    height: 100px;
+    width: 100px;
+    background-image: url(https://westparkcultural.org/wp-content/uploads/2021/12/Quotation-Mark-PNG-Image.png);
+    background-size: cover;
+    filter: contrast(0.1);
+    transform: rotate(180deg);
+    margin-top: 125px;
+    filter: contrast(0.1) brightness(2);
+    opacity: .3;
 }
 .track-color {
     background: var(--trackheader);
