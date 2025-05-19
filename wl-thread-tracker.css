@@ -62,6 +62,8 @@ body {
     outline: 3px solid #292929;
     padding: 20px;
     width: 1000px;
+    z-index: 3;
+    position: relative;
 
 }
 .tt-num {
