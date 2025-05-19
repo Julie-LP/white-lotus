@@ -114,7 +114,7 @@ body {
     flex-direction: row;
     font-family: playfair display;
     font-weight: 800;
-    margin-top: -45px;
+    margin-top: -10px;
     margin-bottom: 10px;
 }
 .tt-txt {
@@ -148,4 +148,12 @@ span.tt-location {
     border-bottom: 1px solid #333;
     padding-bottom: 16px;
     margin-bottom: -5px;
+}
+.tt-desc {
+    background: #2f2e2e;
+    margin-top: -20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 10px;
+    outline: 2px solid #353535;
 }
