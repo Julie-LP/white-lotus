@@ -48,8 +48,9 @@ body {
 }
 
 .tt-box {
-    background: #161616;
+     background: #161616;
     outline: 3px solid #252525;
+    padding: 30px;
 }
 
 .tt-base {
