@@ -51,6 +51,7 @@ body {
      background: #161616;
     outline: 3px solid #252525;
     padding: 30px;
+            border-radius: 5px;
 }
 
 .tt-base {
@@ -116,4 +117,36 @@ body {
     font-weight: 800;
     margin-top: -45px;
     margin-bottom: 10px;
+}
+.tt-txt {
+    background: #1c1c1c;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid #252525;
+    font-size: 11px;
+}
+
+span.tt-location {
+    color: #dadada;
+}
+.tt-small {
+    text-transform: uppercase;
+    font-family: 'Radio Canada Big';
+    font-weight: 900;
+    font-size: 10px;
+    color: #838383;
+}
+
+.tt-left {
+    padding-left: 145px;
+    margin-top: 30px;
+    height: 70px;
+}
+.tt-tit {
+    font-family: 'Oranienbaum';
+    font-size: 26px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 16px;
+    margin-bottom: -5px;
 }
