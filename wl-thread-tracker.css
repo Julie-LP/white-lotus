@@ -163,6 +163,31 @@ span.tt-location {
     outline: 2px solid #353535;
 }
 
+span.tt-status {
+    background: #232323;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 9px;
+    color: #dddddd;
+}
+
+
+span.tt-status.finished {
+    background: #3a5841;
+}
+
+span.tt-status.dropped {
+    background: #5e3535;
+}
+
+span.tt-status.on-going {
+    background: #262626;
+}
+
 .track-image {
     background-image: linear-gradient(to bottom, rgb(55 55 55 / 50%), rgb(37 37 37)), url(https://img.freepik.com/free-photo/japan-background-digital-art_23-2151546196.jpg);
     height: 550px;
