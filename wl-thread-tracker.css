@@ -160,3 +160,67 @@ span.tt-location {
     font-size: 10px;
     outline: 2px solid #353535;
 }
+
+.track-image {
+    background-image: linear-gradient(to bottom, rgb(55 55 55 / 50%), rgb(37 37 37)), url(https://img.freepik.com/free-photo/japan-background-digital-art_23-2151546196.jpg);
+    height: 550px;
+    margin-top: -25px;
+    margin-left: -45px;
+    width: 1088px;
+    position: absolute;
+    z-index: 0;
+    background-position: center;
+    filter: grayscale(1);
+    background-size: cover;
+}
+.track-quote {
+    z-index: 3;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    text-transform: lowercase;
+    font-size: 35px;
+    line-height: 100%;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Playfair Display';
+    text-shadow: 0px 0px 10px;
+    color: #e0e0e0;
+}
+.track-color {
+    background: var(--trackheader);
+    height: 550px;
+    margin-top: -25px;
+    margin-left: -45px;
+    width: 1088px;
+    z-index: 1;
+    position: absolute;
+    opacity: .4;
+}
+
+.fire {
+--trackheader: linear-gradient(0deg, #252525, #450404);
+}
+
+.nwater {
+--trackheader: linear-gradient(0deg, #252525, #1b4c59);
+}
+
+.swater {
+--trackheader: linear-gradient(0deg, #252525, #091f3a);
+        }
+.foggy {
+--trackheader:linear-gradient(0deg, #252525, #0f4536);
+        }
+.earth {
+--trackheader: linear-gradient(0deg, #252525, #0b2905);
+        }
+.sand {
+--trackheader: linear-gradient(0deg, #252525, #2d1d05);
+        }
+.air {
+--trackheader: linear-gradient(0deg, #252525, #767676);
+        }
