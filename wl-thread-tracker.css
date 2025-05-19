@@ -59,3 +59,60 @@ body {
     padding: 20px;
     width: 1000px;
 }
+.tt-num {
+    height: 120px;
+    width: 120px;
+    background: #323232;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    border-radius: 5px;
+    font-family: Oranienbaum;
+    color: #a5a5a5;
+}
+.tt-boxx {
+    height: auto;
+    background: linear-gradient(to right, rgb(33 33 33 / 100%), rgb(33 33 33 / 100%), rgb(30 30 30 / 75%)), url(https://img.freepik.com/premium-photo/black-white-photo-beautiful-bouquet-flowers-ideal-various-design-projects_153912-95013.jpg);
+    display: flex;
+    padding: 20px;
+    background-size: cover;
+    border: 1px solid #333;
+    filter: saturate(0.3);
+    background-position: center;
+    margin-top: -20px;
+}
+.tt-yr::after {
+    content: "AGC";
+    font-size: 16px;
+    margin-left: 10px;
+    font-family: 'Radio Canada Big';
+    margin-top: 5px;
+    color: #808080;
+}
+.tt-yr::before {
+    content: "";
+    border-top: 1px solid;
+    position: relative;
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+    margin-right: 25px;
+    color: #555555;
+}
+.tt-yr {
+    padding-top: 9px;
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    font-size: 37px;
+    height: 45px;
+    border: none;
+    white-space: nowrap;
+    flex-direction: row;
+    font-family: playfair display;
+    font-weight: 800;
+    margin-top: -45px;
+    margin-bottom: 10px;
+}
