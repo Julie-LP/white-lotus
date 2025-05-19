@@ -8,6 +8,8 @@ body {
 
 .content {
     width: 1088px;
+    display: flex;
+    justify-content: center;
 }
 
 .topicfooter {
@@ -43,4 +45,17 @@ body {
 }
 .topicheadergrad {
     background: var(--backgroundrgb);
+}
+
+.tt-box {
+    background: #161616;
+    outline: 3px solid #252525;
+}
+
+.tt-base {
+    background: #1d1d1d;
+    border-radius: 5px;
+    outline: 3px solid #292929;
+    padding: 20px;
+    width: 1000px;
 }
