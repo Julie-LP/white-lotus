@@ -77,7 +77,6 @@ body {
 .tt-boxx {
     height: auto;
     background: linear-gradient(to right, rgb(33 33 33 / 100%), rgb(33 33 33 / 100%), rgb(30 30 30 / 75%)), url(https://img.freepik.com/premium-photo/black-white-photo-beautiful-bouquet-flowers-ideal-various-design-projects_153912-95013.jpg);
-    display: flex;
     padding: 20px;
     background-size: cover;
     border: 1px solid #333;
