@@ -151,3 +151,104 @@ body {
 .air {
 --trackheader: linear-gradient(0deg, #252525, #767676);
         }
+
+.rt-base {
+  background: #1d1d1d;
+    border-radius: 5px;
+    outline: 3px solid #292929;
+    padding: 20px;
+    width: 1000px;
+    z-index: 3;
+    position: relative;
+}
+
+.rt-box {
+      background: #161616;
+    outline: 3px solid #252525;
+    padding: 30px;
+    border-radius: 5px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.rt-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .rt-button {
+      padding: 10px 16px;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      color: white;
+    }
+    .rt-positive { background-color: #3e8e41; }
+    .rt-neutral { background-color: #777; }
+    .rt-negative { background-color: #b13b3b; }
+
+    .rt-section {
+      display: none;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .rt-section.active {
+      display: flex;
+    }
+
+    .rt-card {
+      width: 220px;
+      height: 320px;
+      perspective: 1000px;
+      cursor: pointer;
+    }
+    .rt-card-inner {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+    }
+    .rt-card.flipped .rt-card-inner {
+      transform: rotateY(180deg);
+    }
+    .rt-card-front, .rt-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+    }
+    .rt-card-front {
+      background: #1c1c1c;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 10px;
+    }
+    .rt-card-front img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .rt-card-front .rt-name {
+      margin-top: 10px;
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+    .rt-card-front .rt-title {
+      font-size: 0.9em;
+      color: #aaa;
+    }
+    .rt-card-back {
+      background: #2a2a2a;
+      transform: rotateY(180deg);
+      padding: 15px;
+      font-size: 0.9em;
+    }
