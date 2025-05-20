@@ -199,22 +199,31 @@ body {
 }
 
 .rt-buttons {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      margin-bottom: 20px;
+          display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+    margin-bottom: -30px;
+    width: 920px;
+    margin-left: 15px;
     }
     .rt-button {
-      padding: 10px 16px;
-      border: none;
-      border-radius: 6px;
-      font-weight: bold;
-      cursor: pointer;
-      color: white;
+         padding: 20px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #dedede;
+    width: 100%;
+    outline: 2px solid #333;
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Radio Canada Big';
     }
-    .rt-positive { background-color: #3e8e41; }
-    .rt-neutral { background-color: #777; }
-    .rt-negative { background-color: #b13b3b; }
+    .rt-positive { background: linear-gradient(270deg, #344434, #2c2c2c);}
+    .rt-neutral {     background: linear-gradient(270deg, #4b4b4b, #2c2c2c); }
+    .rt-negative { background: linear-gradient(270deg, #493e3e, #2c2c2c); }
 
     .rt-section {
           display: none;
