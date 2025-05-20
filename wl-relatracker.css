@@ -130,40 +130,53 @@ body {
 
 .fire {
 --trackheader: linear-gradient(0deg, #252525, #450404);
-    --proficon: #6B4040;
+    --proficon: #7c5555;
     --border: 5px solid #926F6F;
+        --cardbg: linear-gradient(0deg, #352929, #1f1f1f);
 }
 
 .nwater {
 --trackheader: linear-gradient(0deg, #252525, #1b4c59);
   --proficon: #73868d;
  --border: 5px solid #8fa1a6;
+        --cardbg: linear-gradient(0deg, #2d3335, #1f1f1f);
 }
 
 .swater {
 --trackheader: linear-gradient(0deg, #252525, #091f3a);
 --proficon: #73868d;
 --border: 5px solid #869da5;
+        --cardbg: linear-gradient(0deg, #30373c, #1f1f1f);
         }
 .foggy {
 --trackheader:linear-gradient(0deg, #252525, #0f4536);
             --proficon: #759386;
     --border: 5px solid #afbbb5;
+        --cardbg: linear-gradient(0deg, #2d3431, #1f1f1f);
         }
 .earth {
 --trackheader: linear-gradient(0deg, #252525, #0b2905);
         --proficon: #738d77;
     --border: 5px solid #9eaa9f;
+        --cardbg: linear-gradient(0deg, #2e342d, #1f1f1f);
         }
 .sand {
 --trackheader: linear-gradient(0deg, #252525, #2d1d05);
         --proficon: #908373;
     --border: 5px solid #aaa391;
+        --cardbg: linear-gradient(0deg, #3d372f, #1f1f1f);
         }
 .air {
 --trackheader: linear-gradient(0deg, #252525, #767676);
             --proficon: #b5b5b5;
     --border: 5px solid #d3d3d3;
+        --cardbg:linear-gradient(0deg, #3f3f3f, #1f1f1f);
+        }
+
+.spirit {
+            --proficon: #7a738d;
+    --border: 5px solid #9e95b1;
+        --cardbg:linear-gradient(0deg, #363642, #1f1f1f);
         }
 
 .rt-base {
@@ -242,7 +255,7 @@ body {
       box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
     }
     .rt-card-front {
-      background: #1c1c1c;
+      background: var(--cardbg);
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -252,32 +265,33 @@ body {
     outline: 3px solid #333;
     }
     .rt-card-front img {
-          object-fit: cover;
-    height: 300px;
-    width: 300px;
-    margin-bottom: 15px;
+       object-fit: cover;
+    height: 280px;
+    width: 270px;
+    margin-bottom: 20px;
     z-index: 3;
     filter: saturate(0.2) contrast(0.8) brightness(0.8);
     border-radius: 10px;
 }
 
 .rt-card-front .rt-name {
-    margin-top: 10px;
+      margin-top: 10px;
     font-size: 35px;
-        margin-bottom:20px;
+    margin-bottom: 100px;
     font-weight: bold;
     text-transform: uppercase;
     font-family: 'Radio Canada Big';
 }
   .rt-card-front .rt-title {
-    font-size: 15px;
+        font-size: 15px;
     color: #707070;
     text-transform: uppercase;
     font-weight: 900;
-    margin-top: -10px;
+    margin-bottom: 20px;
+    margin-top: -90px;
 }
     .rt-card-back {
-       background: #2a2a2a;
+       background: var(--cardbg);
     transform: rotateY(180deg);
     padding: 15px;
     font-size: 0.9em;
@@ -328,4 +342,16 @@ span.rt-rel {
     filter: brightness(1.1) contrast(0.98);
     transform: scale(1.01);
     transition: .4s;
+}
+
+.rt-icon-img {
+    width: 45px;
+    height: 45px;
+    background-image: var(--elementicon);
+    background-size: cover;
+    border-radius: 100%;
+    position: absolute;
+    filter: contrast(0) brightness(2);
+    mix-blend-mode: overlay;
+    opacity: .4;
 }
