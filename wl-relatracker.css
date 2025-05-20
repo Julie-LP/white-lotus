@@ -399,3 +399,49 @@ span.rt-rel {
     border-radius: 10px;
     background: linear-gradient(0deg, #272727, #565656);
 }
+
+.neg {
+    background: linear-gradient(0deg, #372a2a, #533737);
+}
+
+.pos {
+    background: linear-gradient(0deg, #293629, #3a513a);
+}
+
+.pa {
+  background: linear-gradient(0deg, #3f3730, #594d3d);
+}
+
+.ra {
+  background: linear-gradient(0deg, #392a34, #5b3c4a);
+}
+.rt-desc-txt {
+    max-height: 90px;
+    overflow-y: auto;
+    width: 380px;
+    padding-right: 10px;
+    font-size: 10px;
+    line-height: 150%;
+}
+
+.rt-desc {
+    background: #202020;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #333;
+    margin-top: -15px;
+    max-height: 135px;
+}
+
+rt-card-quote {
+    min-height: 35px;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    font-family: playfair display;
+    text-transform: lowercase;
+    font-size: 18px;
+    font-style: italic;
+    color: #c1c1c1;
+}
