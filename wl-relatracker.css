@@ -245,7 +245,7 @@ body {
     filter: saturate(0.2) contrast(0.9) brightness(0.9);
     }
     rt-name {
-    margin-bottom: 20px;
+    margin-bottom: 20px!important;
 }
 
 .rt-card-front .rt-name {
@@ -255,7 +255,7 @@ body {
     text-transform: uppercase;
     font-family: 'Radio Canada Big';
 }
-   .rt-card-front .rt-title {
+  .rt-card-front .rt-title {
     font-size: 15px;
     color: #707070;
     text-transform: uppercase;
