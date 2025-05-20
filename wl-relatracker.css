@@ -221,7 +221,7 @@ body {
     font-size: 20px;
     font-family: 'Radio Canada Big';
     }
-    .rt-positive { background: linear-gradient(270deg, #344434, #2c2c2c);}
+    .rt-positive { background: linear-gradient(270deg, #353e35, #2c2c2c);}
     .rt-neutral {     background: linear-gradient(270deg, #4b4b4b, #2c2c2c); }
     .rt-negative { background: linear-gradient(270deg, #493e3e, #2c2c2c); }
 
