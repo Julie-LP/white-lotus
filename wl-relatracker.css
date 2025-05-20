@@ -244,15 +244,24 @@ body {
     z-index: 3;
     filter: saturate(0.2) contrast(0.9) brightness(0.9);
     }
-    .rt-card-front .rt-name {
-      margin-top: 10px;
-      font-size: 1.1em;
-      font-weight: bold;
-    }
-    .rt-card-front .rt-title {
-      font-size: 0.9em;
-      color: #aaa;
-    }
+    rt-name {
+    margin-bottom: 20px;
+}
+
+.rt-card-front .rt-name {
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Radio Canada Big';
+}
+   .rt-card-front .rt-title {
+    font-size: 15px;
+    color: #707070;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: -10px;
+}
     .rt-card-back {
        background: #2a2a2a;
     transform: rotateY(180deg);
@@ -261,3 +270,11 @@ body {
     margin-top: -34px;
     outline: 3px solid #333;
     }
+.rt-card-up {
+    background: var(--background);
+    height: 90px;
+    width: 445px;
+    position: absolute;
+    z-index: 2;
+    margin-bottom: 380px;
+}
