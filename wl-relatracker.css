@@ -301,7 +301,6 @@ body {
     position: absolute;
     margin-top: -15px;
     border: var(--border);
-    background: red;
     margin-top: 15px;
     margin-left: 375px;
 }
