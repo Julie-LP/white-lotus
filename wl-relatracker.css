@@ -241,7 +241,7 @@ body {
           object-fit: cover;
     height: 300px;
     width: 300px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     z-index: 3;
     filter: saturate(0.2) contrast(0.8) brightness(0.8);
     border-radius: 10px;
@@ -250,6 +250,7 @@ body {
 .rt-card-front .rt-name {
     margin-top: 10px;
     font-size: 35px;
+        margin-bottom:20px;
     font-weight: bold;
     text-transform: uppercase;
     font-family: 'Radio Canada Big';
