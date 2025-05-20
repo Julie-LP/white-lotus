@@ -373,3 +373,29 @@ span.rt-rel {
     filter: saturate(0.7) brightness(0.9);
     z-index: 3;
 }
+
+.rt-bars {
+    width: 100%;
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: -5px;
+    margin-top: -20px;
+}
+
+.rt-flex {
+    display: flex;
+}
+.rt-bar-empty {
+    background: #2f2f2f;
+    border-radius: 10px;
+    outline: 1px solid #3d3d3d;
+    margin-top: 10px;
+}
+
+.rt-bar {
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, #272727, #565656);
+}
