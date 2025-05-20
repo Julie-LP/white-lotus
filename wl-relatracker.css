@@ -190,17 +190,17 @@ body {
     .rt-negative { background-color: #b13b3b; }
 
     .rt-section {
-      display: none;
-      gap: 0px;
-      flex-wrap: wrap;
-      justify-content: center;
+          display: none;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
     }
     .rt-section.active {
       display: flex;
     }
 
     .rt-card {
-            width: 430px;
+             width: 445px;
     height: 480px;
     perspective: 1000px;
     cursor: pointer;
