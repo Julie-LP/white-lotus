@@ -28,14 +28,14 @@ body {
     font-size: 75px;
 }
 .elementpost {
-    background-image: url(https://images2.imgbox.com/8f/16/3ct5Hkzs_o.png);
+    background-image: url(https://images2.imgbox.com/fc/1e/vlHE50cx_o.png);
     margin-left: -735px;
     width: 400px;
     background-position-y: -75px;
     margin-left: -683px;
 }
 .topicheader::after {
-    content: "Thread Timeline";
+    content: "Relationship Tracker";
     width: 100%;
     position: absolute;
     text-align: center;
