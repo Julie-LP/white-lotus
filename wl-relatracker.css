@@ -305,6 +305,7 @@ body {
     position: absolute;
     z-index: 2;
     margin-bottom: 380px;
+  filter: saturate(0.7) brightness(0.9);
 }
 
 .rt-card-icon {
@@ -326,6 +327,7 @@ body {
     margin-left: -15px;
     display: flex;
     align-items: center;
+filter: saturate(0.7) brightness(0.9);
 }
 
 span.rt-rel {
@@ -354,4 +356,20 @@ span.rt-rel {
     filter: contrast(0) brightness(2);
     mix-blend-mode: overlay;
     opacity: .4;
+}
+
+.rt-img-border {
+    background: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding-left: 12px;
+    filter: saturate(0.7) brightness(0.9);
+    z-index: 3;
 }
