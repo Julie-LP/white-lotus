@@ -435,8 +435,7 @@ span.rt-rel {
 
 rt-card-quote {
     min-height: 35px;
-    display: flex
-;
+    display: flex;
     align-items: center;
     justify-content: center;
     font-family: playfair display;
