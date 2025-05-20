@@ -130,26 +130,40 @@ body {
 
 .fire {
 --trackheader: linear-gradient(0deg, #252525, #450404);
+    --proficon: #6B4040;
+    --border: 5px solid #926F6F;
 }
 
 .nwater {
 --trackheader: linear-gradient(0deg, #252525, #1b4c59);
+  --proficon: #73868d;
+ --border: 5px solid #8fa1a6;
 }
 
 .swater {
 --trackheader: linear-gradient(0deg, #252525, #091f3a);
+--proficon: #73868d;
+--border: 5px solid #869da5;
         }
 .foggy {
 --trackheader:linear-gradient(0deg, #252525, #0f4536);
+            --proficon: #759386;
+    --border: 5px solid #afbbb5;
         }
 .earth {
 --trackheader: linear-gradient(0deg, #252525, #0b2905);
+        --proficon: #738d77;
+    --border: 5px solid #9eaa9f;
         }
 .sand {
 --trackheader: linear-gradient(0deg, #252525, #2d1d05);
+        --proficon: #908373;
+    --border: 5px solid #aaa391;
         }
 .air {
 --trackheader: linear-gradient(0deg, #252525, #767676);
+            --proficon: #b5b5b5;
+    --border: 5px solid #d3d3d3;
         }
 
 .rt-base {
