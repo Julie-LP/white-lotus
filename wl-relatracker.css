@@ -433,7 +433,7 @@ span.rt-rel {
     max-height: 135px;
 }
 
-rt-card-quote {
+.rt-card-quote {
     min-height: 35px;
     display: flex;
     align-items: center;
