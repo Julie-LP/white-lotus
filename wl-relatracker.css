@@ -226,10 +226,11 @@ body {
     .rt-negative { background: linear-gradient(270deg, #493e3e, #2c2c2c); }
 
     .rt-section {
-          display: none;
-    gap: 5px;
+             display: none;
+    gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 20px;
     }
     .rt-section.active {
       display: flex;
