@@ -292,3 +292,30 @@ div#female {
 div#male {
     color: #8794a1;
 }
+.poi-base {
+    height: 150px;
+    background: linear-gradient(to left, rgb(45 45 45), rgb(40 40 40 / 90%), rgb(30 30 30 / 75%)), url(https://images2.imgbox.com/6f/09/VYLBzu9W_o.png);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 45px;
+    line-height: 100%;
+    padding-right: 50px;
+    font-weight: 900;
+    border-radius: 5px;
+    outline: 3px solid #282828;
+}
+
+.poi-location {
+    font-size: 10px;
+    background: #404040;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
