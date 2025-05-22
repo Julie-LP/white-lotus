@@ -319,3 +319,50 @@ div#male {
     justify-content: center;
     padding: 10px;
 }
+
+.nations-butt-flex {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.nations-butt {
+    background: #646464;
+    width: 422px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 125px;
+    justify-content: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #dfdfdf;
+    font-size: 23px;
+    font-family: 'Radio Canada Big';
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #424242;
+    outline: 3px solid #2b2b2b;
+      transition: .3s;
+}
+span.nations-small {
+    font-size: 12px;
+    color: #afafaf;
+}
+.nations-butt:hover {
+    filter: brightness(1.2);
+    transform: scale(1.02);
+    transition: .3s;
+}
+.nations-icon {
+    width: 185px;
+    height: 125px;
+    background-size: cover;
+    position: absolute;
+    mix-blend-mode: soft-light;
+    opacity: .1;
+    background-position-y: -25px;
+    background-position-x: -30px;
+    background-repeat: no-repeat;
+}
