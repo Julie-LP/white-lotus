@@ -1,0 +1,84 @@
+.wl-terra-base {
+    background: #202020;
+    outline: 3px solid #111;
+    border: 1px solid #444;
+    width: 755px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wl-terra-header {
+    height: 375px;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(1);
+    border-radius: 5px;
+}
+
+.wl-terra-grad {
+    height: 375px;
+    margin-top: -375px;
+    z-index: 2;
+    position: relative;
+    background: var(--background);
+    mix-blend-mode: color;
+}
+
+.wl-terra-tit {
+    background: linear-gradient(0deg, #202020, transparent);
+    height: 340px;
+    margin-top: -340px;
+    z-index: 3;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 70px;
+    font-size: 55px;
+    line-height: 60%;
+    font-family: 'Oranienbaum';
+    text-transform: uppercase;
+    color: #ebebeb;
+    text-shadow: 2px 2px 5px #343434;
+}
+.wl-terra-smol {
+    font-family: 'Radio Canada Big';
+    font-weight: 900;
+    font-size: 11px;
+    color: #bababa;
+}
+
+.wl-terra-txt {
+    width: 580px;
+    margin-left: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -190px;
+    z-index: 3;
+    filter: drop-shadow(2px 2px 5px #101010);
+}
+
+.wl-terra-icon {
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    z-index: 3;
+    position: relative;
+    filter: var(--elementcolor) brightness(0.7) saturate(0.7);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.wl-terra-icon::before {
+    content: "";
+    height: 50px;
+    width: 1px;
+    background: var(--background);
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 34px;
+    filter: saturate(0);
+}
