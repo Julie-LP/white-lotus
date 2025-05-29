@@ -85,4 +85,41 @@
     filter: saturate(0);
 }
 
+.wl-terra-flowers {
+    height: 400px;
+    width: 300px;
+    background-image: url(https://i.pinimg.com/736x/75/4b/1b/754b1bb….jpg);
+    background-size: cover;
+    mix-blend-mode: exclusion;
+    opacity: .05;
+    z-index: 3;
+    background-repeat: no-repeat;
+    filter: contrast(2.5);
+    margin-top: -370px;
+    margin-bottom: -15px;
+    margin-left: 15px;
+}
 
+.wl-terra-tags {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    text-transform: uppercase;
+    border-top: 1px solid #373737;
+    padding-top: 15px;
+    margin-top: 5px;
+    z-index: 3;
+}
+
+span.terra-tag {
+    background: var(--background);
+    padding: 5px;
+    font-size: 9px;
+    font-weight: 900;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid #575757;
+}
