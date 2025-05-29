@@ -85,7 +85,7 @@ margin-left: 255px;
     width: 1px;
     background: var(--background);
     position: absolute;
-    margin-top: -60px;
+    margin-top: -65px;
     margin-left: 34px;
     filter: saturate(0);
 }
