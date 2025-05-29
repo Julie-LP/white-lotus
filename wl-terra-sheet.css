@@ -25,16 +25,17 @@
     mix-blend-mode: color;
 }
 
+
 .wl-terra-tit {
     background: linear-gradient(0deg, #202020, transparent);
-    height: 340px;
-    margin-top: -340px;
+    height: 375px;
+    margin-top: -375px;
     z-index: 3;
     position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 70px;
+    padding-top: 90px;
     font-size: 55px;
     line-height: 60%;
     font-family: 'Oranienbaum';
@@ -42,6 +43,7 @@
     color: #ebebeb;
     text-shadow: 2px 2px 5px #343434;
 }
+
 .wl-terra-smol {
     font-family: 'Radio Canada Big';
     font-weight: 900;
@@ -82,3 +84,5 @@
     margin-left: 34px;
     filter: saturate(0);
 }
+
+
