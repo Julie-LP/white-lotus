@@ -8,6 +8,13 @@
     flex-direction: column;
 }
 
+.wel-terra-base b {
+    font-weight: 900;
+    color: var(--default);
+    font-family: 'Oranienbaum';
+    font-size: 14px;
+}
+
 .wl-terra-header {
     height: 375px;
     background-size: cover;
