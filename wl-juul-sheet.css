@@ -30,6 +30,7 @@
     width: 755px;
     padding: 25px;
     border: 2px solid #333;
+        padding-bottom: 40px;
 }
 
 .wl-juul-base {
@@ -134,4 +135,50 @@
     background-position: center;
     filter: saturate(0.3) contrast(0.5) brightness(0.45);
     border-left: 2px solid #1e1e1e;
+}
+
+.wl-juul-flowers {
+    height: 400px;
+    width: 300px;
+    background-image: url(https://i.pinimg.com/736x/83/98/2c/83982c3….jpg);
+    background-size: cover;
+    mix-blend-mode: exclusion;
+    opacity: .05;
+    background-repeat: no-repeat;
+    filter: contrast(5);
+    margin-top: -400px;
+    margin-bottom: -15px;
+    margin-left: 0px;
+    background-position-x: -60px;
+    background-position-y: -35px;
+    z-index: 1;
+    position: relative;
+}
+
+.wl-juul-tags {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    text-transform: uppercase;
+    border-top: 1px solid #373737;
+    padding-top: 15px;
+    margin-top: 5px;
+}
+
+span.juul-tag {
+    background: var(--background);
+    padding: 5px;
+    font-size: 8px;
+    font-weight: 900;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Roboto';
+    text-shadow: none;
+    border: 2px solid #434343;
+    filter: brightness(0.8) saturate(0.7);
+    color: #fff;
+    letter-spacing: 1px;
 }
