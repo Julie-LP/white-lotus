@@ -4,7 +4,8 @@
 }
 
 .nwater {
-
+--hdrborder: 5px solid #4e6267;
+--iconborder: 4px dotted #3b3f40;
 }
 
 .swater {
@@ -17,6 +18,9 @@
 
         }
 .sand {
+
+--hdrborder:5px solid #61523f;
+--iconborder:4px dotted #3d3a36;
 
         }
 .air {
