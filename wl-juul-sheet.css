@@ -1,20 +1,43 @@
 .wl-juul {
-    background: #1c1c1c;
-    border: 1px solid #373737;
+       background: #1c1c1c;
+    outline: 3px solid #212121;
     width: 755px;
     padding: 25px;
-    outline: 3px solid #232323;
+    border: 2px solid #333;
 }
 
 .wl-juul-base {
-    background: #252525;
-    outline: 1px solid #373737;
+        background: #252424;
+    outline: 2px solid #292929;
 }
 
 .wl-juul-hdr {
-    background: #141414;
-    height: 75px;
+      background: #141414;
+    height: 70px;
     background-image: url(https://i.pinimg.com/originals/1e/a9/7b/1ea97ba….gif);
     background-size: cover;
-    filter: saturate(0.5) contrast(0.5) brightness(0.4);
+    filter: saturate(0.5) contrast(0.7) brightness(0.6);
+    background-position-y: -135px;
+}
+
+.wl-juul-flex {
+    display: flex
+;
+}
+
+.wl-juul-post {
+    width: 560px;
+    padding: 50px;
+    padding-top: 30px;
+    font-size: 11px;
+}
+
+.wl-juul-img {
+    width: 235px;
+    margin-bottom: -16px;
+    margin-top: -33px;
+    background-size: cover;
+    background-position: center;
+    filter: saturate(0.3) contrast(0.6) brightness(0.5);
+    border-left: 2px solid #1e1e1e;
 }
