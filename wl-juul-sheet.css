@@ -184,3 +184,10 @@ span.juul-tag {
     color: #fff;
     letter-spacing: 1px;
 }
+
+.wl-juul-post b {
+    color: var(--default);
+    font-style: italic;
+    font-size: 11px;
+}
+
