@@ -1,3 +1,29 @@
+.fire {
+--hdrborder: 5px solid #513434;
+--iconborder: 4px dotted #3f3232;
+}
+
+.nwater {
+
+}
+
+.swater {
+
+        }
+.foggy {
+
+        }
+.earth {
+
+        }
+.sand {
+
+        }
+.air {
+
+        }
+
+
 .wl-juul {
        background: #1c1c1c;
     outline: 3px solid #212121;
@@ -12,24 +38,30 @@
 }
 
 .wl-juul-hdr {
-      background: #141414;
+        background: #141414;
     height: 70px;
     background-image: url(https://i.pinimg.com/originals/1e/a9/7b/1ea97ba….gif);
     background-size: cover;
     filter: saturate(0.5) contrast(0.7) brightness(0.6);
     background-position-y: -135px;
+    border-bottom: var(--hdrborder);
 }
 
 .wl-juul-flex {
-    display: flex
-;
+    display: flex;
 }
 
 .wl-juul-post {
-    width: 560px;
+       width: 560px;
     padding: 50px;
     padding-top: 30px;
-    font-size: 11px;
+    font-size: 10.5px;
+    padding-top: 155px;
+    padding-bottom: 25px;
+    font-family: 'Spectral';
+    font-weight: 300;
+    color: #d9d9d9;
+    text-shadow: 1px 1px 1px #000;
 }
 
 .wl-juul-img {
@@ -39,5 +71,67 @@
     background-size: cover;
     background-position: center;
     filter: saturate(0.3) contrast(0.6) brightness(0.5);
+    border-left: 2px solid #1e1e1e;
+}
+
+.wl-juul-icon {
+    background: #1e1e1e;
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    margin-left: 30px;
+    border: var(--iconborder);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wl-juul-icon-img {
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    background-size: cover;
+    filter: grayscale(1) brightness(0.5) contrast(0.9);
+    border: 5px solid #1c1c1c;
+}
+
+.wl-juul-lyr {
+    margin-left: 30px;
+    font-family: UnifrakturMaguntia;
+    font-size: 55px;
+    z-index: 3;
+    width: 360px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #7d7d7d;
+    text-shadow: 1px 1px 5px #000000;
+}
+
+.wl-juul-smol {
+    color: #fff;
+    font-family: 'Radio Canada Big';
+    text-transform: uppercase;
+    font-size: 8px;
+    margin-top: 20px;
+    background: var(--background);
+    width: max-content;
+    padding: 10px;
+    font-weight: 900;
+    border-radius: 10px;
+    border: 2px solid #434343;
+    filter: brightness(0.8) saturate(0.7);
+    letter-spacing: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.wl-juul-img {
+    width: 235px;
+    margin-bottom: -16px;
+    margin-top: -33px;
+    background-size: cover;
+    background-position: center;
+    filter: saturate(0.3) contrast(0.5) brightness(0.45);
     border-left: 2px solid #1e1e1e;
 }
