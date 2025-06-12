@@ -15,7 +15,8 @@
 
         }
 .earth {
-
+        --hdrborder:5px solid #344531;
+--iconborder:4px dotted #344531;
         }
 .sand {
 
