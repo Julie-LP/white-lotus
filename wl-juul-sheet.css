@@ -28,6 +28,13 @@
 
         }
 
+.pink {
+    --hdrborder: 5px solid #5c4553;
+    --iconborder: 4px dotted #353133;
+            --background: #6a5f65;
+--default: #a18b99;
+}
+
 
 .wl-juul {
        background: #1c1c1c;
