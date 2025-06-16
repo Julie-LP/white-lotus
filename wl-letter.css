@@ -1,0 +1,29 @@
+.fancy {
+  font-family: "Mrs Saint Delafield", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.normal {
+  font-family: "Julee", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.messy {
+  font-family: "Over the Rainbow", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.wl-letter {
+    background: #cac6c0;
+    width: 650px;
+    padding: 55px;
+    color: #333;
+}
+
+.wl-letter-flex {
+    display: flex;
+}
+
