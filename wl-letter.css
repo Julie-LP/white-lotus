@@ -1,5 +1,5 @@
 .fancy {
-  font-family: "Mrs Saint Delafield", cursive;
+    font-family: "Italianno", cursive;
   font-weight: 400;
   font-style: normal;
 }
@@ -17,13 +17,50 @@
 }
 
 .wl-letter {
-    background: #cac6c0;
+        background: #cac6c0;
     width: 650px;
-    padding: 55px;
-    color: #333;
+    padding: 40px;
+    font-size: 15px;
+    color: #6c4c4c;
+    text-align: justify;
+    line-height: 150%;
 }
 
 .wl-letter-flex {
-    display: flex;
+      display: flex;
+    gap: 45px;
 }
 
+.wl-letter-intro {
+    font-size: 40px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.wl-letter-seal {
+    background: var(--default);
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    border: 5px solid rgb(230 230 230 / 40%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 2px solid #bfbfbf;
+}
+
+.wl-letter-icon {
+    background-image: var(--elementicon);
+    width: 74px;
+    height: 82px;
+    background-size: cover;
+    mix-blend-mode: overlay;
+    opacity: .3;
+    background-position: center;
+}
+
+.wl-letter-txt {
+    border: 6px double #9d9492;
+    padding: 35px;
+}
