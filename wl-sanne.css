@@ -1,0 +1,65 @@
+.wl-sanne-background {
+    background-image: url(https://images2.imgbox.com/8c/69/lZ3hvRT4_o.jpg);
+    padding: 25px;
+    background-size: cover;
+    outline: 5px solid #161616;
+    border: 3px solid #252525;
+    width: 700px;
+}
+
+.wl-sanne-gradient {
+    background-image: linear-gradient(to bottom, rgb(55 55 55 / 60%), rgb(40 40 40)), url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdUgHNrTEWC6d-4vxbdRQ1zNZiHI47GBMdBr0CL9IsOlwuD94FFMYn-HBDi1mbwnp_wCnMtwRD35ht1MY5Nd2fVrjEwDTTU1ulJ8oQfOVL9lvGtbKX7OTALmCfWnVQwUpNRh_IoIS19uJV/w3440-h1440-c/dragon-chinese-fantasy-art-51-4k.jpg);
+    height: 260px;
+    margin-left: -10px;
+    margin-top: -10px;
+    width: 645px;
+    border-radius: 5px 5px 0px 0px;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(1);
+}
+
+.wl-sanne-gradcolor {
+    background-image: linear-gradient(to bottom, rgb(101 66 66), rgb(40 40 40));
+    height: 260px;
+    margin-left: -10px;
+    margin-top: -260px;
+    width: 645px;
+    border-radius: 5px 5px 0px 0px;
+    z-index: 2;
+    position: relative;
+    mix-blend-mode: color;
+}
+
+.wl-sanne-txt {
+      padding: 30px;
+    font-size: 11px;
+    background: #1e1e1e;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: -15px;
+    border: 3px solid #2d2d2d;
+}
+
+
+.wl-sanne-tags {
+    margin-bottom: -5px;
+    border-top: 1px solid #654242;
+    padding-top: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.wl-sanne-tag {
+    background: #654242;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: 3px solid #353434;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 9px;
+    font-family: 'Radio Canada Big';
+    color: #c3c3c3;
+}
