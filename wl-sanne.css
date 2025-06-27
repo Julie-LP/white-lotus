@@ -174,3 +174,21 @@ wl-sanne-txt b {
     background-size: cover;
     filter: grayscale(1) brightness(0.7) contrast(0.9);
 }
+
+.wl-sanne-bloem {
+    height: 400px;
+    width: 300px;
+    background-image: url(https://i.pinimg.com/originals/ce/b3/3b/ceb33b687d1e7daecffbf7ada0d11dfb.jpg);
+    background-size: cover;
+    mix-blend-mode: exclusion;
+    opacity: .1;
+    background-repeat: no-repeat;
+    filter: contrast(5);
+    margin-bottom: -15px;
+    margin-top: -390px;
+    margin-left: 0px;
+    background-position-x: -115px;
+    background-position-y: 80px;
+    z-index: 4;
+    position: relative;
+}
