@@ -63,3 +63,21 @@
     font-family: 'Radio Canada Big';
     color: #c3c3c3;
 }
+
+.wl-sanne-base {
+    background: #282828;
+    margin-top: -15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.wl-sanne-quote {
+    background: #654242;
+    padding: 15px;
+    text-align: center;
+    color: #dbdbdb;
+    font-family: 'Spectral SC';
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
+}
