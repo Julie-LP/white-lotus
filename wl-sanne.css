@@ -99,6 +99,11 @@
     text-align: justify;
 }
 
+wl-sanne-txt b {
+    color: var(--default);
+    font-family: 'Oranienbaum';
+    font-size: 12px;
+}
 
 .wl-sanne-tags {
     margin-bottom: -5px;
