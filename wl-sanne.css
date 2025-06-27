@@ -78,7 +78,7 @@
 }
 
 .wl-sanne-gradcolor {
-    background-image: linear-gradient(to bottom, rgb(101 66 66), rgb(40 40 40));
+    background-image: var(--sannegrad);
     height: 260px;
     margin-top: -260px;
     width: 645px;
