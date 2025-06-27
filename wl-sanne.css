@@ -1,10 +1,69 @@
+. fire {
+    --sannegrad: linear-gradient(to bottom, rgb(101 66 66), rgb(40 40 40));
+    --sanneborder: 8px solid #472b2b;
+    --sannequote: #533c3c;
+    --sannestreep: 1px solid #654242;
+    --sannetag: #654848;
+}
+
+.nwater {
+      --sannegrad: linear-gradient(to bottom, rgb(74 86 91), rgb(40 40 40));
+    --sanneborder:8px solid #393f41;
+    --sannequote: #45494b;
+    --sannestreep: 1px solid #525659;
+    --sannetag: #535759;
+}
+
+.swater {
+
+      --sannegrad: background-image: linear-gradient(to bottom, rgb(31 39 49), rgb(40 40 40));
+    --sanneborder: 8px solid #3f4349;
+    --sannequote: #4a4e53;
+    --sannestreep: 1px solid #525659;
+    --sannetag: ##535759;
+}
+
+.earth {
+      --sannegrad: linear-gradient(to bottom, rgb(27 35 27), rgb(40 40 40));
+    --sanneborder: 8px solid #393b39;
+    --sannequote: #3f433f;
+    --sannestreep: 1px solid #4d514d;
+    --sannetag: #525752;
+}
+
+.sand {
+      --sannegrad: linear-gradient(to bottom, rgb(113 108 93), rgb(40 40 40));
+    --sanneborder: 8px solid #3d3a33;
+    --sannequote: #575348;
+    --sannestreep: 1px solid #635b4b;
+    --sannetag: #615e56;
+
+}
+
+.foggy {
+      --sannegrad: linear-gradient(to bottom, rgb(55 64 59), rgb(40 40 40));
+    --sanneborder: 8px solid #3a3d3b;
+    --sannequote: #3e413f;
+    --sannestreep: 1px solid #3e4942;
+    --sannetag: #4b4f4c;
+}
+
+.air {
+      --sannegrad: linear-gradient(to bottom, rgb(191 191 191), rgb(40 40 40));
+    --sanneborder: 8px solid #434343;
+    --sannequote: #434343;
+    --sannestreep: 1px solid #616161;
+    --sannetag: #5d5d5d;
+}
+
+
 .wl-sanne-background {
-    background-image: url(https://images2.imgbox.com/8c/69/lZ3hvRT4_o.jpg);
+     background-image: url(https://images2.imgbox.com/5d/e3/OoiIgL6h_o.jpg);
     padding: 25px;
-    background-size: cover;
-    outline: 5px solid #161616;
-    border: 3px solid #252525;
+    outline: 5px solid #1e1e1e;
+    border: 3px solid #2f2f2f;
     width: 700px;
+    background-size: contain;
 }
 
 .wl-sanne-gradient {
@@ -70,6 +129,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+        outline: 2px solid #333;
 }
 
 .wl-sanne-quote {
