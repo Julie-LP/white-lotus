@@ -366,3 +366,21 @@ span.nations-small {
     background-position-x: -30px;
     background-repeat: no-repeat;
 }
+
+ .temp-img {
+       height: 130px;
+    width: 100%;
+    z-index: 3;
+    border-radius: 10px;
+    background-size: cover;
+    filter: saturate(0.5) brightness(0.6) contrast(0.9);
+    outline: var(--moodboard);
+    border: 2px solid #424242;
+    background-position: center;
+}
+.temp-pics {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
