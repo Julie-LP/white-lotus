@@ -1,0 +1,25 @@
+.rens-base {
+    border: 8px solid #131313;
+    background: #1c1c1c;
+    outline: 5px solid #2f2f2f;
+    width: 740px;
+}
+
+.rens-hdr {
+    background: rebeccapurple;
+    height: 250px;
+    display: flex;
+}
+
+.rens-hdr-left {
+    background: #161616;
+    width: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rens-hdr-right {
+    background: black;
+    width: 305px;
+}
