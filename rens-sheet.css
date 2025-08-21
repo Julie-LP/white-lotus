@@ -113,6 +113,7 @@
     text-transform: uppercase;
     font-weight: 800;
     font-size: 9px;
+   justify-content: flex-end;
 }
 
 .rens-tag {
