@@ -130,13 +130,13 @@
     background-size: cover;
     background-position: bottom;
     filter: saturate(0.5);
+    margin-top: -150px;
+    z-index: 1;
+}
 
        .rens-txt b {
     color: var(--default);
     font-size: 13px;
     font-family: 'Oranienbaum';
     text-shadow: 1px 1px 1px #000;
-}
-    margin-top: -150px;
-    z-index: 1;
 }
