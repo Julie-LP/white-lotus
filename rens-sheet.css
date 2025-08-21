@@ -55,7 +55,8 @@
     z-index: 2;
     margin-left: -55px;
 }
-big {
+
+.rens-base big {
     color: var(--default);
     font-size: 55px;
     font-family: 'Oranienbaum';
