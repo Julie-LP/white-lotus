@@ -19,15 +19,16 @@ div#plcontent-1-18 {
 }
 
 div#plcontent-1-17 {
-    width: 970px;
+       width: 970px;
     height: 209px;
-    font-size: 11px;
+    font-size: 20px;
     overflow-y: auto;
     padding-right: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 0px;
 }
 
 div#plcontent-1-19 {
