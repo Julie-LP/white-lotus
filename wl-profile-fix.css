@@ -6,3 +6,53 @@ div#plcontent-1-5 {
     padding-right: 15px;
     margin-left: -245px;
 }
+
+div#plcontent-1-6 {
+    text-align: justify;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 800;
+}
+
+div#plcontent-1-14 {
+    margin-left: 45px;
+}
+
+div#plcontent-1-12 {
+    width: 595px;
+    margin-left: 10px;
+    height: 265px;
+    overflow-y: auto;
+    padding-right: 20px;
+}
+
+div#plcontent-1-10 {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    font-size: 11px;
+    font-weight: 800;
+}
+
+div#plcontent-1-19 {
+    width: 1149px;
+    height: 240px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    display: flex;
+}
+
+div#plcontent-1-20 {
+    width: 1010px;
+    text-align: justify;
+    font-size: 11;
+    margin-left: 35px;
+    margin-top: 25px;
+    margin-bottom: 20px !important;
+}
