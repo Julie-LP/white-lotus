@@ -1,0 +1,8 @@
+div#plcontent-1-5 {
+    width: 645px;
+    height: 150px;
+    overflow-y: auto;
+    text-align: justify;
+    padding-right: 15px;
+    margin-left: -245px;
+}
