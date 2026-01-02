@@ -74,6 +74,7 @@ div#plcontent-1-23 img {
     height: 180px;
     filter: saturate(0.3) brightness(0.7) contrast(0.9);
     border: var(--moodboard);
+  z-index: 3;
 }
 
 div#plcontent-1-24 {
